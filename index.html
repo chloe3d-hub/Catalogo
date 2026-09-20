@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yishu Studio Col — Catálogo</title>
+<meta name="description" content="Yishu Studio Col — artículos impresos en 3D. Decoración, regalos, accesorios y piezas personalizadas. Creamos todo tipo de artículos, pregunta por tu idea.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&family=Space+Mono:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="icon" href="assets/logo/logo-mark-red.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Cinta vertical de Instagram, estilo revista -->
+<div class="insta-rail" aria-hidden="false">
+  <div class="insta-rail__inner">
+    <a href="https://www.instagram.com/yishustudiocol" target="_blank" rel="noopener">@yishustudiocol · síguenos en Instagram</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="brand">
+    <img src="assets/logo/logo-mark-red.png" alt="Yishu Studio Col">
+    <div>
+      <div class="brand__name">Yishu Studio Col</div>
+      <div class="brand__tag">Creamos todo tipo de artículos. Pregunta por tu idea!</div>
+    </div>
+  </div>
+  <nav class="site-nav" id="site-nav">
+    <!-- Se genera dinámicamente con js/app.js: una entrada por cada categoría -->
+  </nav>
+</header>
+
+<div class="custom-banner wrap">
+  <span class="custom-banner__icon">✦</span>
+  <p><strong>Aceptamos pedidos personalizados</strong> y cualquier idea que se te ocurra — escríbenos y lo hacemos realidad. Además, todos los colores se pueden personalizar sin cambio de precio.</p>
+</div>
+
+<!-- ============================ HALLOWEEN ============================ -->
+<section id="halloween" class="season season--halloween">
+  <div class="wrap">
+    <div class="season__head">
+      <h2 class="season__title">🎃 Halloween</h2>
+      <p class="season__note"><strong>¿Se te ocurre otra idea de temporada?</strong> Escríbenos, la creamos para ti.</p>
+    </div>
+    <div class="grid" id="grid-halloween"></div>
+  </div>
+</section>
+
+<!-- ============================= NAVIDAD ============================= -->
+<section id="navidad" class="season season--navidad">
+  <div class="wrap">
+    <div class="season__head">
+      <h2 class="season__title">🎄 Navidad</h2>
+      <p class="season__note"><strong>¿Quieres algo diferente para esta Navidad?</strong> Escríbenos y lo diseñamos juntos.</p>
+    </div>
+    <div class="grid" id="grid-navidad"></div>
+  </div>
+</section>
+
+<!-- ============================ CATÁLOGO ============================= -->
+<main id="catalogo" class="catalog">
+  <div class="catalog__intro wrap">
+    <h2>Catálogo general</h2>
+    <p>Explora todas nuestras categorías. Cada producto se puede personalizar en color sin cambio de precio, y si tienes una idea propia, la hacemos posible.</p>
+  </div>
+
+  <div class="wrap" id="catalog-sections">
+    <!-- Las categorías se generan dinámicamente con js/app.js -->
+  </div>
+</main>
+
+<div class="custom-banner wrap">
+  <span class="custom-banner__icon">✦</span>
+  <p><strong>¿No encontraste lo que buscabas?</strong> Aceptamos pedidos personalizados y todo tipo de ideas — cuéntanos qué imaginas y lo creamos.</p>
+</div>
+
+<footer class="site-footer wrap">
+  <img src="assets/logo/logo-mark-red.png" alt="Yishu Studio Col">
+  <p>Yishu Studio Col — Creamos todo tipo de artículos. Pregunta por tu idea!</p>
+  <div class="handle">
+    <a href="https://www.instagram.com/yishustudiocol" target="_blank" rel="noopener">@yishustudiocol</a>
+  </div>
+</footer>
+
+<script src="data/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
