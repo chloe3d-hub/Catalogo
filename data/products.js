@@ -1,4 +1,3 @@
-// Datos de productos Yishu Studio Col — generado a partir de la lista de precios de Lorena
 const YISHU_DATA = {
   "whatsappNumber": "573173802682",
   "sections": [
@@ -110,8 +109,8 @@ const YISHU_DATA = {
         },
         {
           "id": 12,
-          "name": "Esfera Navideña Personalizada con Nombre",
-          "desc": "Árbol y copos de nieve, colores rojo/verde. Personalizable con el nombre que quieras.",
+          "name": "Esfera Navideña con Nombre",
+          "desc": "Árbol y copos de nieve, colores rojo/verde.",
           "price": "$18.000",
           "waPrice": "$18.000",
           "personalizable": true,
@@ -119,8 +118,8 @@ const YISHU_DATA = {
         },
         {
           "id": 13,
-          "name": "Placa de Gato Navideña Personalizada con Nombre",
-          "desc": "Para colgar, con copos de nieve y bigotes. Personalizable con el nombre que quieras.",
+          "name": "Placa de Gato Navideña con Nombre",
+          "desc": "Para colgar, con copos de nieve y bigotes.",
           "price": "$18.000",
           "waPrice": "$18.000",
           "personalizable": true,
@@ -128,8 +127,8 @@ const YISHU_DATA = {
         },
         {
           "id": 14,
-          "name": "Figuras Navideñas para el Árbol con Nombre Personalizado",
-          "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella. Personalizables con el nombre que quieras.",
+          "name": "Figuras Navideñas para el Árbol con Nombre",
+          "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella.",
           "price": "$15.000 c/u",
           "waPrice": "$15.000",
           "personalizable": true,
@@ -222,7 +221,7 @@ const YISHU_DATA = {
         {
           "id": 24,
           "name": "Estante de Pared Ondulado",
-          "desc": "Diseño exclusivo.",
+          "desc": "",
           "price": "$200.000",
           "waPrice": "$200.000",
           "image": "assets/products/24.webp"
@@ -237,8 +236,8 @@ const YISHU_DATA = {
         },
         {
           "id": 26,
-          "name": "Repisa Flotante Estilo Raíz",
-          "desc": "Diseño orgánico.",
+          "name": "Repisa Flotante Estilo Árbol",
+          "desc": "Le suma un aire natural a cualquier pared vacía.",
           "price": "$35.000",
           "waPrice": "$35.000",
           "image": "assets/products/26.webp"
@@ -252,15 +251,15 @@ const YISHU_DATA = {
         {
           "id": 27,
           "name": "Soporte para Control PS5 Demonio Oni",
-          "desc": "Diseño japonés.",
+          "desc": "",
           "price": "$30.000",
           "waPrice": "$30.000",
           "image": "assets/products/27.webp"
         },
         {
           "id": 28,
-          "name": "Soporte Doble para Controles y Audífonos",
-          "desc": "Temática GTA.",
+          "name": "Soporte Doble GTA VI para Controles y Audífonos",
+          "desc": "Sostiene 2 controles y unos audífonos.",
           "price": "$70.000",
           "waPrice": "$70.000",
           "image": "assets/products/28.webp"
@@ -290,7 +289,7 @@ const YISHU_DATA = {
         {
           "id": 31,
           "name": "Lámpara Japonesa Shoji de Mesa",
-          "desc": "Diseño de mesa.",
+          "desc": "",
           "price": "$35.000",
           "waPrice": "$35.000",
           "image": "assets/products/31.webp"
@@ -298,18 +297,10 @@ const YISHU_DATA = {
         {
           "id": 32,
           "name": "Farol Japonés Estilo Pagoda",
-          "desc": "Un techo.",
+          "desc": "Con luz cálida integrada.",
           "price": "$40.000",
           "waPrice": "$40.000",
           "image": "assets/products/32.webp"
-        },
-        {
-          "id": 33,
-          "name": "Farol Japonés Estilo Pagoda de Doble Techo",
-          "desc": "Dos techos.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/33.webp"
         }
       ]
     },
@@ -344,7 +335,7 @@ const YISHU_DATA = {
         {
           "id": 37,
           "name": "Máscara Inferior Oni Demonio",
-          "desc": "Jaw mask, disponible en varios colores: morado, plateado/verde, negro/rojo.",
+          "desc": "Jaw mask estilo oni demonio.",
           "price": "$50.000",
           "waPrice": "$50.000",
           "image": "assets/products/37.webp"
@@ -413,7 +404,7 @@ const YISHU_DATA = {
         {
           "id": 42,
           "name": "Organizador de Escritorio para Celular y Accesorios",
-          "desc": "Con cajón, gancho para llaves y espacio para maceta.",
+          "desc": "Con cajón y gancho para llaves.",
           "price": "$40.000",
           "waPrice": "$40.000",
           "image": "assets/products/42.webp"
@@ -421,7 +412,7 @@ const YISHU_DATA = {
         {
           "id": 43,
           "name": "Organizador de Mesita de Noche",
-          "desc": "Para celular, reloj y billetera, con espacio para cargador.",
+          "desc": "Para celular, reloj, billetera o lo que necesites cerca de tu cama, con espacio para cargador inalámbrico (compatible con iPhone y Samsung). No incluye cargador.",
           "price": "$60.000",
           "waPrice": "$60.000",
           "image": "assets/products/43.webp"
@@ -445,7 +436,7 @@ const YISHU_DATA = {
         {
           "id": 46,
           "name": "Organizador de Closet",
-          "desc": "Para el espacio detrás de los ganchos, con cestas.",
+          "desc": "Cestas para el espacio detrás de los ganchos.",
           "price": "$30.000 c/u",
           "waPrice": "$30.000",
           "image": "assets/products/46.webp"
@@ -458,8 +449,8 @@ const YISHU_DATA = {
       "products": [
         {
           "id": 47,
-          "name": "Llavero de Flor Personalizado con Nombre",
-          "desc": "Para bolso o cartuchera.",
+          "name": "Llavero de Flor con Nombre",
+          "desc": "Perfecto como regalo.",
           "price": "$19.900",
           "waPrice": "$19.900",
           "personalizable": true,
@@ -467,8 +458,8 @@ const YISHU_DATA = {
         },
         {
           "id": 48,
-          "name": "Set de Llaveros de Nombre en Barra",
-          "desc": "Colores pastel con dije decorativo.",
+          "name": "Llavero de Nombre en Barra",
+          "desc": "Unidad, colores a elección.",
           "price": "$19.900",
           "waPrice": "$19.900",
           "personalizable": true,
@@ -485,90 +476,20 @@ const YISHU_DATA = {
         },
         {
           "id": 50,
-          "name": "Set de Floreros/Portalápices Espiral Geométrico",
-          "desc": "Disponible en 2 diseños.",
+          "name": "Portalápices Espiral Geométrico",
+          "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños.",
           "price": "$35.000",
           "waPrice": "$35.000",
           "image": "assets/products/50.webp"
         },
         {
           "id": 51,
-          "name": "Caja Organizadora con Texto Personalizado",
+          "name": "Caja Organizadora con Texto",
           "desc": "Tipo maletín, ideal como regalo.",
           "price": "$30.000",
           "waPrice": "$30.000",
           "personalizable": true,
           "image": "assets/products/51.webp"
-        }
-      ]
-    },
-    {
-      "id": "weed",
-      "label": "Weed",
-      "products": [
-        {
-          "id": 52,
-          "name": "Cenicero Alien Fumador",
-          "desc": "Figura 3D sobre base negra con salpicado.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/52.webp"
-        },
-        {
-          "id": 53,
-          "name": "Cenicero Geométrico con Cristal",
-          "desc": "Funcional para limpiar pipas, colores iridiscentes azul/morado.",
-          "price": "$29.000",
-          "waPrice": "$29.000",
-          "image": "assets/products/53.webp"
-        },
-        {
-          "id": 54,
-          "name": "Rolling Station",
-          "desc": "Kit para armar cigarrillos: papel, filtros y bandeja.",
-          "price": "$28.000",
-          "waPrice": "$28.000",
-          "image": "assets/products/54.webp"
-        },
-        {
-          "id": 55,
-          "name": "Letrero Decorativo \"Smoke Room\"",
-          "desc": "Con hoja de cannabis.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "image": "assets/products/55.webp"
-        },
-        {
-          "id": 56,
-          "name": "Frascos Guarda-Todo \"SH!T\"",
-          "desc": "Contenedor hermético estilo barril.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/56.webp"
-        },
-        {
-          "id": 57,
-          "name": "Caja \"Happy 420\"",
-          "desc": "Diseño de hoja de cannabis.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "image": "assets/products/57.webp"
-        },
-        {
-          "id": 58,
-          "name": "Set de Guarda-Hierbas Texturizados",
-          "desc": "3 tamaños, colores iridiscentes.",
-          "price": "$10.000 / $15.000 / $20.000",
-          "waPrice": "$10.000 - $20.000 según tamaño",
-          "image": "assets/products/58.webp"
-        },
-        {
-          "id": 59,
-          "name": "Estuche Porta-Cigarrillos/Joints",
-          "desc": "Con espacio para encendedor, 5 espacios.",
-          "price": "$20.000",
-          "waPrice": "$20.000",
-          "image": "assets/products/59.webp"
         }
       ]
     },
@@ -587,7 +508,7 @@ const YISHU_DATA = {
         {
           "id": 61,
           "name": "Aretes Amanecer Japonés",
-          "desc": "Rectangulares, blanco/gris/rojo.",
+          "desc": "Inspirados en los aretes de Tanjiro, de Demon Slayer.",
           "price": "$15.000",
           "waPrice": "$15.000",
           "image": "assets/products/61.webp"
@@ -619,7 +540,7 @@ const YISHU_DATA = {
         {
           "id": 66,
           "name": "Aretes Pez Dorado en Bolsa",
-          "desc": "Diseño divertido.",
+          "desc": "",
           "price": "$12.000",
           "waPrice": "$12.000",
           "image": "assets/products/66.webp"
@@ -627,7 +548,7 @@ const YISHU_DATA = {
         {
           "id": 67,
           "name": "Aretes Halloween Fantasma y Murciélago con Lazo",
-          "desc": "Diseño de temporada.",
+          "desc": "",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/67.webp"
@@ -659,10 +580,80 @@ const YISHU_DATA = {
         {
           "id": 71,
           "name": "Aretes Zorro",
-          "desc": "Diseño de cara de zorro, tres niveles colgantes.",
+          "desc": "Zorrito en tres partes colgantes: cabeza, cuerpo y cola.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/71.webp"
+        }
+      ]
+    },
+    {
+      "id": "smokeshop",
+      "label": "Smokeshop (+18)",
+      "products": [
+        {
+          "id": 52,
+          "name": "Cenicero Alien Fumador",
+          "desc": "Figura 3D sobre base negra con salpicado.",
+          "price": "$35.000",
+          "waPrice": "$35.000",
+          "image": "assets/products/52.webp"
+        },
+        {
+          "id": 53,
+          "name": "Cenicero Geométrico con Cristal",
+          "desc": "Funcional para limpiar pipas.",
+          "price": "$29.000",
+          "waPrice": "$29.000",
+          "image": "assets/products/53.webp"
+        },
+        {
+          "id": 54,
+          "name": "Estuche Porta-Cigarrillos/Joints",
+          "desc": "Guarda hasta 4 porros armados, con un espacio central para el encendedor.",
+          "price": "$28.000",
+          "waPrice": "$28.000",
+          "image": "assets/products/54.webp"
+        },
+        {
+          "id": 55,
+          "name": "Letrero Decorativo \"Smoke Room\"",
+          "desc": "Con hoja de cannabis.",
+          "price": "$25.000",
+          "waPrice": "$25.000",
+          "image": "assets/products/55.webp"
+        },
+        {
+          "id": 56,
+          "name": "Frascos Guarda-Todo \"SH!T\"",
+          "desc": "Contenedor estilo barril.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/56.webp"
+        },
+        {
+          "id": 57,
+          "name": "Caja \"Happy 420\"",
+          "desc": "Diseño de hoja de cannabis.",
+          "price": "$25.000",
+          "waPrice": "$25.000",
+          "image": "assets/products/57.webp"
+        },
+        {
+          "id": 58,
+          "name": "Set de Guarda-Hierbas Texturizados",
+          "desc": "3 tamaños, colores iridiscentes.",
+          "price": "$10.000 / $15.000 / $20.000",
+          "waPrice": "$10.000 - $20.000 según tamaño",
+          "image": "assets/products/58.webp"
+        },
+        {
+          "id": 59,
+          "name": "Rolling Station",
+          "desc": "Kit para armar cigarrillos: papel, filtros y bandeja.",
+          "price": "$20.000",
+          "waPrice": "$20.000",
+          "image": "assets/products/59.webp"
         }
       ]
     }
