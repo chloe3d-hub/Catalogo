@@ -183,14 +183,18 @@
   function renderNav() {
     const nav = document.getElementById("site-nav");
     if (!nav) return;
-    DATA.sections.forEach((section) => {
-      const a = el("a", null, section.label);
-      a.href = "#" + section.id;
-      nav.appendChild(a);
-    });
+    // El catálogo +18 vive aparte (smokeshop.html), no sale en el menú principal.
+    DATA.sections
+      .filter((s) => s.id !== "smokeshop")
+      .forEach((section) => {
+        const a = el("a", null, section.label);
+        a.href = "#" + section.id;
+        nav.appendChild(a);
+      });
   }
 
-  function init() {
+  // Página principal: todo el catálogo excepto el +18.
+  function initMainCatalog() {
     renderNav();
 
     const bySectionId = {};
@@ -202,11 +206,25 @@
     const catalogRoot = document.getElementById("catalog-sections");
     if (catalogRoot) {
       DATA.sections
-        .filter((s) => s.id !== "halloween" && s.id !== "navidad")
-        .forEach((section) => {
-          if (section.id === "smokeshop") catalogRoot.appendChild(buildAgeDisclaimer());
-          catalogRoot.appendChild(renderCatalogSection(section));
-        });
+        .filter((s) => s.id !== "halloween" && s.id !== "navidad" && s.id !== "smokeshop")
+        .forEach((section) => catalogRoot.appendChild(renderCatalogSection(section)));
+    }
+  }
+
+  // Página aparte del catálogo +18 (smokeshop.html): solo esa categoría, con su aviso.
+  function initSmokeshopCatalog(root) {
+    const section = DATA.sections.find((s) => s.id === "smokeshop");
+    if (!section) return;
+    root.appendChild(buildAgeDisclaimer());
+    root.appendChild(renderCatalogSection(section));
+  }
+
+  function init() {
+    const smokeshopRoot = document.getElementById("smokeshop-catalog");
+    if (smokeshopRoot) {
+      initSmokeshopCatalog(smokeshopRoot);
+    } else {
+      initMainCatalog();
     }
   }
 
