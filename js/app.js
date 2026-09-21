@@ -88,8 +88,6 @@
       body.appendChild(el("p", "card__personalized", "✎ Personalizable con el nombre que quieras"));
     }
 
-    body.appendChild(el("p", "card__color-note", "🎨 ¿Lo quieres en otro color? Pregúntanos — el precio no cambia."));
-
     const footer = el("div", "card__footer");
 
     const priceWrap = el("div", "card__price");
@@ -122,8 +120,10 @@
     wrap.id = section.id;
 
     const head = el("div", "category__head");
-    head.appendChild(el("h3", "category__title", section.label));
+    const titleClass = section.id === "smokeshop" ? "category__title category__title--plain" : "category__title";
+    head.appendChild(el("h3", titleClass, section.label));
     head.appendChild(el("p", "category__cta", `<strong>¿Buscas algo distinto?</strong> Aceptamos pedidos personalizados y tus propias ideas — escríbenos.`));
+    head.appendChild(el("p", "category__color-note", "🎨 Todos los colores se pueden personalizar sin cambio de precio."));
     wrap.appendChild(head);
 
     const grid = el("div", "grid");
@@ -131,6 +131,12 @@
     wrap.appendChild(grid);
 
     return wrap;
+  }
+
+  function buildAgeDisclaimer() {
+    const banner = el("div", "age-disclaimer wrap");
+    banner.innerHTML = `<span class="age-disclaimer__badge">+18</span><p>Lo que sigue es para mayores de edad. Adelante bajo tu propio criterio.</p>`;
+    return banner;
   }
 
   function renderNav() {
@@ -156,7 +162,10 @@
     if (catalogRoot) {
       DATA.sections
         .filter((s) => s.id !== "halloween" && s.id !== "navidad")
-        .forEach((section) => catalogRoot.appendChild(renderCatalogSection(section)));
+        .forEach((section) => {
+          if (section.id === "smokeshop") catalogRoot.appendChild(buildAgeDisclaimer());
+          catalogRoot.appendChild(renderCatalogSection(section));
+        });
     }
   }
 
