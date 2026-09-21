@@ -37,6 +37,8 @@
       img.src = product.gallery[0];
       img.alt = product.name;
       img.loading = "lazy";
+      img.classList.add("zoomable");
+      img.addEventListener("click", () => openLightbox(img.src, img.alt));
       media.appendChild(img);
 
       const thumbs = el("div", "card__thumbs");
@@ -65,6 +67,8 @@
       img.src = product.image;
       img.alt = product.name;
       img.loading = "lazy";
+      img.classList.add("zoomable");
+      img.addEventListener("click", () => openLightbox(img.src, img.alt));
       media.appendChild(img);
       return media;
     }
@@ -131,6 +135,43 @@
     wrap.appendChild(grid);
 
     return wrap;
+  }
+
+  // -------------------------------------------------------------------
+  // Lightbox: click en una foto de producto la abre en grande; clic
+  // afuera (o Escape) la cierra y se vuelve exactamente a donde estaba,
+  // porque es un overlay sobre la misma página, no una navegación.
+  // -------------------------------------------------------------------
+  let lightboxEl = null;
+  let lightboxImg = null;
+
+  function ensureLightbox() {
+    if (lightboxEl) return;
+    lightboxEl = el("div", "lightbox");
+    lightboxImg = el("img");
+    lightboxImg.alt = "";
+    lightboxEl.appendChild(lightboxImg);
+    lightboxEl.addEventListener("click", (ev) => {
+      if (ev.target === lightboxEl) closeLightbox();
+    });
+    document.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") closeLightbox();
+    });
+    document.body.appendChild(lightboxEl);
+  }
+
+  function openLightbox(src, alt) {
+    ensureLightbox();
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || "";
+    lightboxEl.classList.add("lightbox--open");
+    document.body.classList.add("no-scroll");
+  }
+
+  function closeLightbox() {
+    if (!lightboxEl) return;
+    lightboxEl.classList.remove("lightbox--open");
+    document.body.classList.remove("no-scroll");
   }
 
   function buildAgeDisclaimer() {
