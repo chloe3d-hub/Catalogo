@@ -1,4 +1,4 @@
-const YISHU_DATA = {
+{
   "whatsappNumber": "573173802682",
   "sections": [
     {
@@ -770,4 +770,4 @@ const YISHU_DATA = {
       ]
     }
   ]
-};
+}
