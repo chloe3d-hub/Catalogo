@@ -353,6 +353,14 @@
           "waPrice": "$38.000",
           "personalizable": true,
           "image": "assets/products/75.webp"
+        },
+        {
+          "id": 90,
+          "name": "Portabotellas de Vino Salchicha Low-Poly",
+          "desc": "Perrito salchicha estilo low-poly (facetado), sostiene la botella sobre el lomo.",
+          "price": "$30.000",
+          "waPrice": "$30.000",
+          "image": "assets/products/90.webp"
         }
       ]
     },
@@ -497,6 +505,37 @@
             "assets/products/40-gallery/healthy-woman.webp",
             "assets/products/40-gallery/casa-boheme.webp",
             "assets/products/40-gallery/lucky-baby-bow.webp"
+          ]
+        },
+        {
+          "id": 91,
+          "name": "Stand \"Scan to Pay\" con 3 QR",
+          "desc": "Stand octagonal con 3 códigos QR de pago y texto personalizado.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/91.webp"
+        },
+        {
+          "id": 92,
+          "name": "Stand de Negocio con NFC para Redes y Pagos",
+          "desc": "Con espacio para logo, punto de contacto NFC y hasta 3 íconos de redes o métodos de pago.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/92.webp"
+        },
+        {
+          "id": 93,
+          "name": "Tarjetero de Escritorio Personalizado",
+          "desc": "Diseño temático según tu marca o servicio: veterinaria, salón de belleza, consultorio, oficina y más.",
+          "price": "$20.000 - $30.000 según diseño",
+          "waPrice": null,
+          "quote": true,
+          "image": "assets/products/93.webp",
+          "gallery": [
+            "assets/products/93.webp",
+            "assets/products/93-gallery/veterinaria.webp",
+            "assets/products/93-gallery/legal.webp",
+            "assets/products/93-gallery/dental.webp"
           ]
         }
       ]
@@ -696,6 +735,54 @@
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/71.webp"
+        },
+        {
+          "id": 84,
+          "name": "Aretes Avión de Papel",
+          "desc": "Blanco.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/84.webp"
+        },
+        {
+          "id": 85,
+          "name": "Aretes Cámara Instantánea",
+          "desc": "Rosado, con charm de foto colgando.",
+          "price": "$15.000",
+          "waPrice": "$15.000",
+          "image": "assets/products/85.webp"
+        },
+        {
+          "id": 86,
+          "name": "Aretes Cassette",
+          "desc": "Rosado.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/86.webp"
+        },
+        {
+          "id": 87,
+          "name": "Aretes Colombina de Corazón",
+          "desc": "Paleta en forma de corazón.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/87.webp"
+        },
+        {
+          "id": 88,
+          "name": "Aretes Gato Saltando",
+          "desc": "Silueta negra.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/88.webp"
+        },
+        {
+          "id": 89,
+          "name": "Aretes Perrito de Línea Continua",
+          "desc": "Diseño de un solo trazo, negro.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/89.webp"
         }
       ]
     },
