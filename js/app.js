@@ -127,7 +127,7 @@
     const titleClass = section.id === "smokeshop" ? "category__title category__title--plain" : "category__title";
     head.appendChild(el("h3", titleClass, section.label));
     head.appendChild(el("p", "category__cta", `<strong>¿Buscas algo distinto?</strong> Aceptamos pedidos personalizados y tus propias ideas — escríbenos.`));
-    head.appendChild(el("p", "category__color-note", "🎨 Todos los colores se pueden personalizar sin cambio de precio."));
+    head.appendChild(el("p", "category__color-note", "🎨 Algunos colores se pueden personalizar sin cambio de precio."));
     if (section.badge) head.appendChild(el("p", "category__badge", section.badge));
     wrap.appendChild(head);
 

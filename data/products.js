@@ -940,11 +940,7 @@ const YISHU_DATA = {
           "desc": "Jaw mask estilo oni demonio.",
           "price": "$60.000",
           "waPrice": "$60.000",
-          "image": "assets/products/37-gallery/nuevo.webp",
-          "gallery": [
-            "assets/products/37-gallery/nuevo.webp",
-            "assets/products/37.webp"
-          ]
+          "image": "assets/products/37.webp"
         },
         {
           "id": 111,
