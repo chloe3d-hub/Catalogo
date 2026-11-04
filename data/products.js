@@ -551,10 +551,9 @@ const YISHU_DATA = {
           "id": 97,
           "name": "Casco de Alien para Gato",
           "desc": "Casquito de alien para gatos. Colores a elección.",
-          "price": "Consultar precio",
-          "waPrice": "Consultar precio",
-          "image": "assets/products/97.webp",
-          "quote": true
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/97.webp"
         }
       ]
     },
@@ -900,7 +899,7 @@ const YISHU_DATA = {
           "desc": "Rostro facetado, blanca.",
           "price": "$55.000",
           "waPrice": "$55.000",
-          "image": "assets/products/35.png"
+          "image": "assets/products/35.webp"
         },
         {
           "id": 36,
@@ -1080,7 +1079,7 @@ const YISHU_DATA = {
           "desc": "Decoración de esquina para puerta o interruptor, con calabazas y caldero.",
           "price": "$15.000",
           "waPrice": "$15.000",
-          "image": "assets/products/1.png"
+          "image": "assets/products/1.webp"
         },
         {
           "id": 2,
