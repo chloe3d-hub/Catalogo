@@ -554,6 +554,19 @@ const YISHU_DATA = {
           "price": "$50.000",
           "waPrice": "$50.000",
           "image": "assets/products/97.webp"
+        },
+        {
+          "id": 137,
+          "name": "Cama Galleta para Gato",
+          "desc": "Cama en forma de galleta gigante, con tapete incluido. Mide 35 × 47 cm. Envío gratis.",
+          "price": "$1.000.000",
+          "waPrice": "$1.000.000",
+          "image": "assets/products/137.webp",
+          "gallery": [
+            "assets/products/137.webp",
+            "assets/products/137-gallery/foto2.webp",
+            "assets/products/137-gallery/foto3.webp"
+          ]
         }
       ]
     },
