@@ -210,9 +210,11 @@ p { margin: 0; }
 
 .season--navidad {
   background:
-    radial-gradient(circle at 85% 15%, rgba(46,139,87,0.20), transparent 45%),
-    radial-gradient(circle at 10% 85%, rgba(226,35,26,0.22), transparent 50%),
-    linear-gradient(180deg, var(--navidad-deep), var(--black) 70%);
+    radial-gradient(circle at 88% 12%, rgba(46,139,87,0.30), transparent 42%),
+    radial-gradient(circle at 8% 88%, rgba(226,35,26,0.32), transparent 48%),
+    radial-gradient(circle at 50% 0%, rgba(255,215,120,0.14), transparent 50%),
+    linear-gradient(180deg, #2a1015, #12080a 75%, var(--black));
+  padding-top: 96px;
 }
 
 .season__head {
@@ -561,4 +563,166 @@ body.no-scroll { overflow: hidden; }
   border-radius: 8px;
   box-shadow: 0 30px 70px -20px rgba(0,0,0,0.8);
   cursor: default;
+}
+
+
+/* -------------------------------------------------------------------- */
+/* Navidad: luces, nieve y encabezado festivo                            */
+/* -------------------------------------------------------------------- */
+
+.season__inner { position: relative; z-index: 2; }
+
+.xmas-lights {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2%;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.xmas-lights span {
+  display: block;
+  width: 14px;
+  height: 22px;
+  border-radius: 50% 50% 55% 55%;
+  margin-top: -4px;
+  background: var(--c, #e2231a);
+  box-shadow: 0 0 14px 3px var(--c, #e2231a);
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+
+.xmas-lights span:nth-child(4n+1) { --c: #e2231a; animation-delay: 0s; }
+.xmas-lights span:nth-child(4n+2) { --c: #2fbf71; animation-delay: .6s; }
+.xmas-lights span:nth-child(4n+3) { --c: #ffd36b; animation-delay: 1.2s; }
+.xmas-lights span:nth-child(4n+4) { --c: #6ec1ff; animation-delay: 1.8s; }
+.xmas-lights span:nth-child(odd) { margin-top: 6px; }
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+
+.snow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.snow i {
+  position: absolute;
+  top: -30px;
+  font-style: normal;
+  color: rgba(255,255,255,0.75);
+  font-size: 16px;
+  animation: snowfall 12s linear infinite;
+}
+
+.snow i:nth-child(1)  { left: 4%;  animation-duration: 11s; animation-delay: 0s;  font-size: 14px; }
+.snow i:nth-child(2)  { left: 12%; animation-duration: 15s; animation-delay: 2s;  font-size: 20px; }
+.snow i:nth-child(3)  { left: 21%; animation-duration: 12s; animation-delay: 5s;  font-size: 12px; }
+.snow i:nth-child(4)  { left: 30%; animation-duration: 16s; animation-delay: 1s;  font-size: 18px; }
+.snow i:nth-child(5)  { left: 39%; animation-duration: 13s; animation-delay: 7s;  font-size: 14px; }
+.snow i:nth-child(6)  { left: 48%; animation-duration: 17s; animation-delay: 3s;  font-size: 22px; }
+.snow i:nth-child(7)  { left: 57%; animation-duration: 12s; animation-delay: 9s;  font-size: 13px; }
+.snow i:nth-child(8)  { left: 66%; animation-duration: 14s; animation-delay: 4s;  font-size: 17px; }
+.snow i:nth-child(9)  { left: 74%; animation-duration: 16s; animation-delay: 8s;  font-size: 15px; }
+.snow i:nth-child(10) { left: 82%; animation-duration: 11s; animation-delay: 6s;  font-size: 19px; }
+.snow i:nth-child(11) { left: 90%; animation-duration: 15s; animation-delay: 10s; font-size: 13px; }
+.snow i:nth-child(12) { left: 96%; animation-duration: 13s; animation-delay: 2.5s; font-size: 16px; }
+
+@keyframes snowfall {
+  0%   { transform: translate3d(0, 0, 0) rotate(0deg); opacity: 0; }
+  10%  { opacity: 1; }
+  100% { transform: translate3d(28px, 105vh, 0) rotate(240deg); opacity: .2; }
+}
+
+.season__kicker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #ffd36b;
+  margin-bottom: 6px;
+}
+
+.season__head--xmas { align-items: flex-end; }
+.season--navidad .season__title { font-size: clamp(38px, 6vw, 64px); text-shadow: 0 0 30px rgba(226,35,26,0.45); }
+.season__notes { max-width: 340px; }
+
+.season--navidad .card {
+  box-shadow: 0 0 0 1px rgba(255,211,107,0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xmas-lights span, .snow i { animation: none; }
+  .snow { display: none; }
+}
+
+/* -------------------------------------------------------------------- */
+/* Halloween plegable (al final de la página)                            */
+/* -------------------------------------------------------------------- */
+
+.season--fold { padding: 40px var(--gutter); }
+
+.fold__summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  background: rgba(255,255,255,0.04);
+  border-radius: var(--radius);
+}
+
+.fold__summary::-webkit-details-marker { display: none; }
+.fold__summary:hover { background: rgba(255,122,26,0.12); }
+
+.fold__title {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 3vw, 34px);
+  color: #ffb877;
+  letter-spacing: 0.03em;
+}
+
+.fold__hint {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--white-dim);
+  white-space: nowrap;
+}
+
+.fold__hint::after { content: " ▾"; }
+.fold[open] .fold__hint::after { content: " ▴"; }
+.fold__close-txt { display: none; }
+.fold[open] .fold__open-txt { display: none; }
+.fold[open] .fold__close-txt { display: inline; }
+
+.fold[open] .fold__summary { margin-bottom: 28px; }
+.fold .season__head { margin-bottom: 26px; }
+
+/* -------------------------------------------------------------------- */
+/* Nota de descuento en Aretes                                           */
+/* -------------------------------------------------------------------- */
+
+.category__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffd36b, #ff9f43);
+  color: #1b1206;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }

@@ -2,6 +2,1073 @@ const YISHU_DATA = {
   "whatsappNumber": "573173802682",
   "sections": [
     {
+      "id": "navidad",
+      "label": "Navidad",
+      "temporary": true,
+      "theme": "navidad",
+      "products": [
+        {
+          "id": 125,
+          "name": "Pesebre con Ángel",
+          "desc": "El nacimiento entre las alas de un ángel. Con luz sale a $50.000 y sin luz a $40.000.",
+          "price": "$50.000 con luz · $40.000 sin luz",
+          "waPrice": "$50.000 con luz / $40.000 sin luz",
+          "image": "assets/products/125.webp",
+          "gallery": [
+            "assets/products/125.webp",
+            "assets/products/125-gallery/luz-calida.webp"
+          ]
+        },
+        {
+          "id": 130,
+          "name": "Colección de 4 Gnomos de Jengibre y Chocolate",
+          "desc": "Colección de 4 gnomos pintados a mano. Cada uno mide 9,5 cm de alto.",
+          "price": "$150.000 la colección",
+          "waPrice": "$150.000 (colección de 4)",
+          "image": "assets/products/130.webp"
+        },
+        {
+          "id": 129,
+          "name": "Santa en Columpio",
+          "desc": "Santa sentado en un columpio colgado de una rama nevada. Tiene imanes. Mide 16 × 5 cm.",
+          "price": "$140.000",
+          "waPrice": "$140.000",
+          "image": "assets/products/129.webp"
+        },
+        {
+          "id": 128,
+          "name": "Santa Badass",
+          "desc": "Santa con gafas de sol y botas. Mide 10 cm de alto.",
+          "price": "$80.000",
+          "waPrice": "$80.000",
+          "image": "assets/products/128.webp"
+        },
+        {
+          "id": 127,
+          "name": "Patricio para la Punta del Árbol",
+          "desc": "Patricio con gorro de Santa para coronar el árbol. Mide 12 × 13 × 18 cm.",
+          "price": "$100.000",
+          "waPrice": "$100.000",
+          "image": "assets/products/127.webp",
+          "gallery": [
+            "assets/products/127.webp",
+            "assets/products/127-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 126,
+          "name": "Estrella de Mario Bros para el Árbol",
+          "desc": "Estrella para la punta del árbol. Mide 9 × 18 × 30 cm; el precio depende del tamaño.",
+          "price": "Desde $50.000",
+          "waPrice": "Desde $50.000",
+          "image": "assets/products/126.webp"
+        },
+        {
+          "id": 100,
+          "name": "Papá Noel Tejido Decorativo",
+          "desc": "Figura decorativa de Papá Noel sentado, con textura tejida.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/100.webp",
+          "gallery": [
+            "assets/products/100.webp",
+            "assets/products/100-gallery/foto2.webp",
+            "assets/products/100-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 101,
+          "name": "Reno Minimalista Acanalado",
+          "desc": "Figura decorativa de reno con acanalado fino, en varios colores.",
+          "price": "$35.000",
+          "waPrice": "$35.000",
+          "image": "assets/products/101.webp",
+          "gallery": [
+            "assets/products/101.webp",
+            "assets/products/101-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 132,
+          "name": "Santa Sentado para Pantalla",
+          "desc": "Figura de Santa para poner sobre la pantalla del computador.",
+          "price": "$7.000",
+          "waPrice": "$7.000",
+          "image": "assets/products/132.webp"
+        },
+        {
+          "id": 131,
+          "name": "Jesús Sentado para Pantalla",
+          "desc": "Figura para poner sobre la pantalla del computador.",
+          "price": "$5.000",
+          "waPrice": "$5.000",
+          "image": "assets/products/131.webp"
+        },
+        {
+          "id": 133,
+          "name": "Santa Colgante con Cadena",
+          "desc": "Santa en miniatura con cadena para colgar.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/133.webp"
+        },
+        {
+          "id": 134,
+          "name": "Gorro de Santa para Botella",
+          "desc": "Se enrosca en las botellas de gaseosa y se presiona en las de vino.",
+          "price": "$12.000",
+          "waPrice": "$12.000",
+          "image": "assets/products/134.webp"
+        },
+        {
+          "id": 135,
+          "name": "Set de Posavasos Navideños con Base",
+          "desc": "Posavasos con copo de nieve y base decorada con muñeco de nieve y arbolito.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/135.webp"
+        },
+        {
+          "id": 99,
+          "name": "Bolas Decorativas Navideñas",
+          "desc": "Esferas en varios diseños texturizados para colgar en el árbol. Se venden por unidad.",
+          "price": "$30.000 c/u",
+          "waPrice": "$30.000",
+          "image": "assets/products/99.webp"
+        },
+        {
+          "id": 123,
+          "name": "Osito Navideño con Nombre",
+          "desc": "Osito con tu nombre para colgar en el árbol. Desde 5 unidades hay descuento.",
+          "price": "$13.000 c/u",
+          "waPrice": "$13.000 c/u",
+          "image": "assets/products/123.webp",
+          "personalizable": true
+        },
+        {
+          "id": 121,
+          "name": "Adorno Navideño de Bola con Nombre y Copos",
+          "desc": "Bola calada con tu nombre y copos de nieve.",
+          "price": "$8.000 c/u",
+          "waPrice": "$8.000",
+          "image": "assets/products/121.webp",
+          "personalizable": true
+        },
+        {
+          "id": 122,
+          "name": "Adorno Navideño de Bola Calada con Nombre",
+          "desc": "Bola calada con tu nombre y motivos navideños.",
+          "price": "$8.000 c/u",
+          "waPrice": "$8.000",
+          "image": "assets/products/122.webp",
+          "personalizable": true
+        },
+        {
+          "id": 12,
+          "name": "Esfera Navideña con Nombre",
+          "desc": "Árbol y copos de nieve, colores rojo/verde. Si llevas 4, salen a $50.000.",
+          "price": "$18.000 c/u · 4 por $50.000",
+          "waPrice": "$18.000 c/u (4 por $50.000)",
+          "personalizable": true,
+          "image": "assets/products/12.webp",
+          "gallery": [
+            "assets/products/12.webp",
+            "assets/products/12-gallery/nombres.webp"
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Placa de Gato Navideña con Nombre",
+          "desc": "Para colgar, con copos de nieve y bigotes.",
+          "price": "$18.000",
+          "waPrice": "$18.000",
+          "personalizable": true,
+          "image": "assets/products/13.webp"
+        },
+        {
+          "id": 120,
+          "name": "Adorno Navideño de Gatico con Nombre",
+          "desc": "Adorno de gatico con copos de nieve y tu nombre.",
+          "price": "$5.000 c/u",
+          "waPrice": "$5.000",
+          "image": "assets/products/120.webp",
+          "personalizable": true
+        },
+        {
+          "id": 118,
+          "name": "Adorno Navideño de Patica con Nombre",
+          "desc": "Adorno de patica con copos de nieve y tu nombre.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/118.webp",
+          "personalizable": true
+        },
+        {
+          "id": 119,
+          "name": "Adorno Navideño de Hueso con Nombre",
+          "desc": "Adorno de hueso con moño y tu nombre.",
+          "price": "$4.000 c/u",
+          "waPrice": "$4.000",
+          "image": "assets/products/119.webp",
+          "personalizable": true
+        },
+        {
+          "id": 117,
+          "name": "Adorno Navideño con Foto y Nombre",
+          "desc": "Adorno para el árbol con la foto y el nombre que quieras. Sin foto $15.000, con foto $20.000. Desde 5 unidades hay descuento.",
+          "price": "$20.000 con foto · $15.000 sin foto",
+          "waPrice": "$20.000 con foto / $15.000 sin foto",
+          "image": "assets/products/117.webp",
+          "personalizable": true
+        },
+        {
+          "id": 98,
+          "name": "Copos de Nieve Colgantes",
+          "desc": "Adornos de copos de nieve en distintos diseños. Se venden por unidad.",
+          "price": "$3.000 c/u",
+          "waPrice": "$3.000",
+          "image": "assets/products/98.webp"
+        },
+        {
+          "id": 14,
+          "name": "Figuras Navideñas para el Árbol con Nombre",
+          "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella.",
+          "price": "$15.000 c/u",
+          "waPrice": "$15.000",
+          "personalizable": true,
+          "image": "assets/products/14.webp"
+        },
+        {
+          "id": 124,
+          "name": "Aretes Gorro de Santa",
+          "desc": "Gorritos de Santa en rojo y blanco.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/124.webp"
+        },
+        {
+          "id": 10,
+          "name": "Casitas de Piñas Colgantes para Árbol",
+          "desc": "Disponibles sin luz o con luz.",
+          "price": "$18.000 - $25.000",
+          "waPrice": "$18.000 - $25.000",
+          "image": "assets/products/10.webp"
+        },
+        {
+          "id": 9,
+          "name": "Esquina Navideña para Puerta o Interruptor",
+          "desc": "Árbol, bastón de dulce, regalos y copos de nieve.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/9.webp"
+        },
+        {
+          "id": 11,
+          "name": "Mano del Grinch",
+          "desc": "Doble uso: portabotellas de vino o decoración de pared / sostén para esferas.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/11.webp",
+          "gallery": [
+            "assets/products/11.webp",
+            "assets/products/11-gallery/sostiene-esfera.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuadros",
+      "label": "Cuadros",
+      "products": [
+        {
+          "id": 15,
+          "name": "Cuadro Gran Ola Japonesa (Kanagawa)",
+          "desc": "Sol rojo, capas y sombra, marco negro.",
+          "price": "$80.000",
+          "waPrice": "$80.000",
+          "image": "assets/products/15.webp"
+        },
+        {
+          "id": 16,
+          "name": "Cuadro Planta Blanca",
+          "desc": "Rama con hojas sobre sol y arco minimalista.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/16.webp"
+        },
+        {
+          "id": 17,
+          "name": "Cuadro Triple de Árbol",
+          "desc": "Silueta de árbol en tres piezas.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/17.webp"
+        },
+        {
+          "id": 18,
+          "name": "Cuadro Montaña y Cascada",
+          "desc": "Dos piezas triangulares.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/18.webp"
+        },
+        {
+          "id": 19,
+          "name": "Cuadro Triple Paisaje Japonés",
+          "desc": "Torii, monte Fuji con sol y árbol, tres piezas.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/19.webp"
+        },
+        {
+          "id": 94,
+          "name": "Cuadro Paisaje Japonés Detallado",
+          "desc": "Río entre montañas y árboles rojos, con mucho detalle. Mide 20 cm de alto × 21,5 cm de ancho.",
+          "price": "$80.000",
+          "waPrice": "$80.000",
+          "image": "assets/products/94.webp"
+        }
+      ]
+    },
+    {
+      "id": "decoracion-casa",
+      "label": "Decoración para la Casa",
+      "products": [
+        {
+          "id": 20,
+          "name": "Sujetalibros Mano de Esqueleto",
+          "desc": "Sujetalibros decorativo. Se vende por unidad; la pareja sale a $200.000.",
+          "price": "$120.000 c/u · las 2 manos $200.000",
+          "waPrice": "$120.000 c/u (las 2 manos $200.000)",
+          "image": "assets/products/20.webp"
+        },
+        {
+          "id": 21,
+          "name": "Decoración de Pared Templo Japonés con Base",
+          "desc": "Paisaje con pagoda, luna y bonsái. Mide 19,5 cm de alto × 23,5 cm de ancho. Con o sin brillitos.",
+          "price": "$25.000",
+          "waPrice": "$25.000",
+          "image": "assets/products/21.webp"
+        },
+        {
+          "id": 22,
+          "name": "Organizador de Baño con Portarrollos",
+          "desc": "Incluye bandeja superior y cajón organizador.",
+          "price": "$80.000",
+          "waPrice": "$80.000",
+          "image": "assets/products/22.webp",
+          "gallery": [
+            "assets/products/22.webp",
+            "assets/products/22-gallery/foto2.webp",
+            "assets/products/22-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Decoración de Peces Koi en Círculo con Base",
+          "desc": "Pieza decorativa con base. Mide 20,5 cm de alto × 18 cm de ancho.",
+          "price": "$120.000",
+          "waPrice": "$120.000",
+          "image": "assets/products/23.webp"
+        },
+        {
+          "id": 24,
+          "name": "Estante de Pared Ondulado",
+          "desc": "Ondas continuas que recorren la pared. El precio depende del tamaño.",
+          "price": "Desde $250.000",
+          "waPrice": "Desde $250.000",
+          "image": "assets/products/24.webp"
+        },
+        {
+          "id": 25,
+          "name": "Repisa Flotante Hoja de Monstera",
+          "desc": "Con espacio para maceta. Mide 18 × 22 cm.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/25.webp"
+        },
+        {
+          "id": 26,
+          "name": "Repisa Flotante Estilo Árbol",
+          "desc": "Le suma un aire natural a cualquier pared vacía.",
+          "price": "$65.000",
+          "waPrice": "$65.000",
+          "image": "assets/products/26.webp"
+        },
+        {
+          "id": 72,
+          "name": "Gato Flotante en Repisas",
+          "desc": "El gatico y sus 3 repisas redondas se instalan en la pared a distintas alturas, dando el efecto de que camina flotando en el aire. Mide 20 cm de largo × 16 cm de alto × 10 cm de ancho.",
+          "price": "$160.000",
+          "waPrice": "$160.000",
+          "image": "assets/products/72.webp"
+        },
+        {
+          "id": 73,
+          "name": "Set Safari (4 piezas)",
+          "desc": "Mono, jirafa, elefante y león en silueta, para pared de cuarto de bebé. Colores pastel a elección.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/73.webp"
+        },
+        {
+          "id": 74,
+          "name": "Letra Decorativa con Nombre",
+          "desc": "Perfecta para regalar o decorar la casita o las habitaciones.",
+          "price": "$30.000",
+          "waPrice": "$30.000",
+          "personalizable": true,
+          "image": "assets/products/74.webp"
+        },
+        {
+          "id": 75,
+          "name": "Letra Decorativa con Nombre y Decoración Temática",
+          "desc": "Incluye decoración temática alrededor de la letra: nubes, globos y hojas. Ideal para cuarto de bebé o niños.",
+          "price": "$38.000",
+          "waPrice": "$38.000",
+          "personalizable": true,
+          "image": "assets/products/75.webp"
+        },
+        {
+          "id": 103,
+          "name": "Letra Decorativa Infantil con Nombre",
+          "desc": "Letra con tu nombre y decoración infantil: globos aerostáticos, nubes, hojitas y un animalito. Personalizable con la letra, el nombre y los colores que quieras.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/103.webp",
+          "gallery": [
+            "assets/products/103.webp",
+            "assets/products/103-gallery/hector.webp",
+            "assets/products/103-gallery/alberto.webp"
+          ],
+          "personalizable": true
+        },
+        {
+          "id": 104,
+          "name": "Letra Decorativa con Nombre, Fecha y Peso de Nacimiento",
+          "desc": "Letra con el nombre, la fecha, la hora y el peso de nacimiento, con osito en columpio, globo, nubes y estrellas.",
+          "price": "$100.000",
+          "waPrice": "$100.000",
+          "image": "assets/products/104.webp",
+          "personalizable": true
+        },
+        {
+          "id": 90,
+          "name": "Portabotellas de Vino Salchicha Low-Poly",
+          "desc": "Perrito salchicha estilo low-poly (facetado), sostiene la botella sobre el lomo.",
+          "price": "$180.000",
+          "waPrice": "$180.000",
+          "image": "assets/products/90.webp",
+          "gallery": [
+            "assets/products/90.webp",
+            "assets/products/90-gallery/foto2.webp",
+            "assets/products/90-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 96,
+          "name": "Repisa de Pared Anubis",
+          "desc": "Repisa flotante sostenida por la figura de Anubis. Mide 24 cm de ancho × 20 cm de alto × 10 cm de profundidad.",
+          "price": "$200.000",
+          "waPrice": "$200.000",
+          "image": "assets/products/96.webp"
+        },
+        {
+          "id": 95,
+          "name": "Dúo de Jirafas Decorativas",
+          "desc": "Set de 2 jirafas: la grande de 7 cm de ancho × 15 cm de alto y la pequeña de 4 cm de ancho × 7,5 cm de alto.",
+          "price": "$60.000 el set",
+          "waPrice": "$60.000 (set de 2)",
+          "image": "assets/products/95.webp"
+        },
+        {
+          "id": 102,
+          "name": "Figuras de Animales en Contorno",
+          "desc": "Set de siluetas de animales en varios colores. Cada figura mide aprox. 12-18 × 7-13 × 0,4 cm según el animal.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/102.webp"
+        }
+      ]
+    },
+    {
+      "id": "mascotas",
+      "label": "Mascotas",
+      "products": [
+        {
+          "id": 77,
+          "name": "Placa de Collar con Nombre",
+          "desc": "Placa en forma de huesito para colgar del collar.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "personalizable": true,
+          "image": "assets/products/77.webp"
+        },
+        {
+          "id": 78,
+          "name": "Cuchara Medidora para Comida de Perro",
+          "desc": "Forma de huella, para porcionar la comida.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "personalizable": true,
+          "image": "assets/products/78.webp"
+        },
+        {
+          "id": 79,
+          "name": "Ganchos de Pared Patica",
+          "desc": "Gancho de pared en forma de huella para colgar correas. Colores a elección.",
+          "price": "$22.000 c/u",
+          "waPrice": "$22.000",
+          "image": "assets/products/79.webp"
+        },
+        {
+          "id": 80,
+          "name": "Cuchara Medidora para Comida de Gato",
+          "desc": "Forma de espina de pescado, para porcionar la comida.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "personalizable": true,
+          "image": "assets/products/80.webp"
+        },
+        {
+          "id": 81,
+          "name": "Estación de Correa Personalizada",
+          "desc": "Panel de pared con gancho de correa, gancho de llaves y bandeja para snacks.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "personalizable": true,
+          "image": "assets/products/81.webp"
+        },
+        {
+          "id": 83,
+          "name": "Sombrero de Copa para Gato",
+          "desc": "Sombrero mini ajustable.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/83.webp"
+        },
+        {
+          "id": 97,
+          "name": "Casco de Alien para Gato",
+          "desc": "Casquito de alien para gatos. Colores a elección.",
+          "price": "Consultar precio",
+          "waPrice": "Consultar precio",
+          "image": "assets/products/97.webp",
+          "quote": true
+        }
+      ]
+    },
+    {
+      "id": "organizadores",
+      "label": "Organizadores",
+      "products": [
+        {
+          "id": 41,
+          "name": "Organizador de Joyas de Mesa",
+          "desc": "Soporte con perchas para aretes, collares y reloj, y bandeja para anillos.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/41-gallery/negro.webp"
+        },
+        {
+          "id": 114,
+          "name": "Set Organizador de Escritorio",
+          "desc": "Soporte para celular, portalápices, bandeja y matera con diseño de huequitos.",
+          "price": "$100.000",
+          "waPrice": "$100.000",
+          "image": "assets/products/114.webp"
+        },
+        {
+          "id": 46,
+          "name": "Organizador de Closet",
+          "desc": "Mide 25 × 14 × 15 cm, o se puede reducir según las medidas que necesites.",
+          "price": "$30.000 c/u",
+          "waPrice": "$30.000",
+          "image": "assets/products/46.webp",
+          "gallery": [
+            "assets/products/46.webp",
+            "assets/products/46-gallery/foto2.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negocios",
+      "label": "Negocios",
+      "products": [
+        {
+          "id": 38,
+          "name": "Stand NFC + QR para Redes Sociales",
+          "desc": "Plantilla estándar, elige el ícono: Facebook, LinkedIn, Google Reviews, TikTok, Tripadvisor, WhatsApp, YouTube o WiFi.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/38-gallery/wifi.webp",
+          "gallery": [
+            "assets/products/38-gallery/wifi.webp",
+            "assets/products/38-gallery/linkedin.webp",
+            "assets/products/38-gallery/google.webp",
+            "assets/products/38-gallery/tiktok.webp",
+            "assets/products/38-gallery/tripadvisor.webp",
+            "assets/products/38-gallery/youtube.webp",
+            "assets/products/38-gallery/facebook.webp"
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Stand de Negocio Personalizado",
+          "desc": "Stand con tus QR, redes y logo, hecho a la medida de tu negocio. El precio depende del diseño: desde $32.000 (modelo Love on Tap), $52.000 (minimalista con logo), $60.000 (arco con logo y 3 QR) y $75.000 (modelos Sweet Spot y Casa Bohème).",
+          "price": "$32.000 - $75.000 según diseño",
+          "waPrice": "$32.000 - $75.000 según diseño",
+          "quote": true,
+          "image": "assets/products/40.webp",
+          "gallery": [
+            "assets/products/40.webp",
+            "assets/products/40-gallery/healthy-woman.webp",
+            "assets/products/40-gallery/casa-boheme.webp",
+            "assets/products/40-gallery/lucky-baby-bow.webp",
+            "assets/products/40-gallery/minimalista-logo.webp",
+            "assets/products/40-gallery/sweet-spot.webp"
+          ]
+        },
+        {
+          "id": 91,
+          "name": "Stand \"Scan to Pay\" con 3 QR",
+          "desc": "Stand octagonal con 3 códigos QR de pago y texto personalizado.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/91.webp"
+        },
+        {
+          "id": 93,
+          "name": "Tarjetero de Escritorio Personalizado",
+          "desc": "Diseño temático según tu marca o servicio: veterinaria, salón de belleza, consultorio, oficina y más.",
+          "price": "$20.000 - $30.000 según diseño",
+          "waPrice": null,
+          "quote": true,
+          "image": "assets/products/93.webp",
+          "gallery": [
+            "assets/products/93.webp",
+            "assets/products/93-gallery/veterinaria.webp",
+            "assets/products/93-gallery/legal.webp",
+            "assets/products/93-gallery/dental.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aretes",
+      "label": "Aretes",
+      "products": [
+        {
+          "id": 60,
+          "name": "Aretes Perrito Globo",
+          "desc": "Contorno negro.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/60.webp"
+        },
+        {
+          "id": 61,
+          "name": "Aretes Amanecer Japonés",
+          "desc": "Inspirados en los aretes de Tanjiro, de Demon Slayer.",
+          "price": "$15.000",
+          "waPrice": "$15.000",
+          "image": "assets/products/61.webp"
+        },
+        {
+          "id": 62,
+          "name": "Aretes Máscara Oni Demonio",
+          "desc": "Negro.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/62.webp"
+        },
+        {
+          "id": 64,
+          "name": "Aretes Corona de Flores con Lazo",
+          "desc": "Blanco y rosado.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/64.webp"
+        },
+        {
+          "id": 65,
+          "name": "Aretes Hombre de Jengibre",
+          "desc": "Diseño navideño.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/65.webp"
+        },
+        {
+          "id": 67,
+          "name": "Aretes Halloween Fantasma y Murciélago con Lazo",
+          "desc": "",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/67.webp"
+        },
+        {
+          "id": 68,
+          "name": "Aretes Huevito con Patitas",
+          "desc": "Diseño de pollito.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/68.webp"
+        },
+        {
+          "id": 69,
+          "name": "Aretes Pez Koi",
+          "desc": "Contorno negro.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/69.webp"
+        },
+        {
+          "id": 70,
+          "name": "Aretes Corazón Tejido Rojo",
+          "desc": "Estilo crochet.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/70.webp"
+        },
+        {
+          "id": 71,
+          "name": "Aretes Zorro",
+          "desc": "Zorrito en tres partes colgantes: cabeza, cuerpo y cola.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/71.webp"
+        },
+        {
+          "id": 84,
+          "name": "Aretes Avión de Papel",
+          "desc": "Blanco.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/84.webp"
+        },
+        {
+          "id": 85,
+          "name": "Aretes Cámara Instantánea",
+          "desc": "Rosado, con charm de foto colgando.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/85.webp"
+        },
+        {
+          "id": 86,
+          "name": "Aretes Cassette",
+          "desc": "Rosado.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/86.webp"
+        },
+        {
+          "id": 88,
+          "name": "Aretes Gato Saltando",
+          "desc": "Silueta negra.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/88.webp"
+        },
+        {
+          "id": 89,
+          "name": "Aretes Perrito de Línea Continua",
+          "desc": "Diseño de un solo trazo, negro.",
+          "price": "$8.000",
+          "waPrice": "$8.000",
+          "image": "assets/products/89.webp"
+        }
+      ],
+      "badge": "✦ Llevando varios aretes hay descuento — pregúntanos"
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "products": [
+        {
+          "id": 27,
+          "name": "Soporte para Control PS5 Demonio Oni",
+          "desc": "Soporte para control de PS5 con máscara de demonio oni.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/27-gallery/nuevo.webp",
+          "gallery": [
+            "assets/products/27-gallery/nuevo.webp",
+            "assets/products/27.webp"
+          ]
+        },
+        {
+          "id": 108,
+          "name": "Soporte para Control PS5 Tentáculos",
+          "desc": "Soporte para control de PS5 con tentáculos.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/108.webp"
+        },
+        {
+          "id": 105,
+          "name": "Soporte para Control Xbox Pulpo",
+          "desc": "Soporte para control de Xbox con diseño de pulpo.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/105.webp"
+        },
+        {
+          "id": 106,
+          "name": "Soporte para Control Xbox Retrowave",
+          "desc": "Soporte para control de Xbox con diseño retrowave estilo Miami.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/106.webp"
+        },
+        {
+          "id": 107,
+          "name": "Soporte para Control Xbox Slime",
+          "desc": "Soporte para control de Xbox con base de slime goteando.",
+          "price": "$30.000",
+          "waPrice": "$30.000",
+          "image": "assets/products/107.webp"
+        },
+        {
+          "id": 28,
+          "name": "Soporte Doble GTA VI para Controles y Audífonos",
+          "desc": "Sostiene 2 controles y unos audífonos.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/28.webp"
+        },
+        {
+          "id": 29,
+          "name": "Set Decorativo Pac-Man y Fantasmas",
+          "desc": "Set de 5 piezas.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/29-gallery/nuevo.webp",
+          "gallery": [
+            "assets/products/29-gallery/nuevo.webp",
+            "assets/products/29.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamparas",
+      "label": "Lámparas",
+      "products": [
+        {
+          "id": 30,
+          "name": "Lámpara Japonesa Cuadrada Geométrica",
+          "desc": "Patrón shoji.",
+          "price": "$38.000",
+          "waPrice": "$38.000",
+          "image": "assets/products/30.webp"
+        },
+        {
+          "id": 31,
+          "name": "Lámpara Japonesa Shoji de Mesa",
+          "desc": "",
+          "price": "$35.000",
+          "waPrice": "$35.000",
+          "image": "assets/products/31.webp"
+        },
+        {
+          "id": 32,
+          "name": "Farol Japonés Estilo Pagoda",
+          "desc": "Con luz cálida integrada.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/32.webp"
+        }
+      ]
+    },
+    {
+      "id": "mascaras",
+      "label": "Máscaras",
+      "products": [
+        {
+          "id": 34,
+          "name": "Máscara Inferior Calavera",
+          "desc": "Jaw mask estilo esqueleto, blanca.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/34-gallery/nuevo.webp"
+        },
+        {
+          "id": 35,
+          "name": "Máscara Facial Geométrica Low-Poly",
+          "desc": "Rostro facetado, blanca.",
+          "price": "$55.000",
+          "waPrice": "$55.000",
+          "image": "assets/products/35.png"
+        },
+        {
+          "id": 36,
+          "name": "Máscara de Gatúbela",
+          "desc": "Estilo cuero con costuras y orejas.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/36-gallery/principal.webp",
+          "gallery": [
+            "assets/products/36-gallery/principal.webp",
+            "assets/products/36-gallery/collage.webp"
+          ]
+        },
+        {
+          "id": 109,
+          "name": "Máscara Batman",
+          "desc": "Máscara con cordón para sujetarla.",
+          "price": "$100.000",
+          "waPrice": "$100.000",
+          "image": "assets/products/109.webp",
+          "gallery": [
+            "assets/products/109.webp",
+            "assets/products/109-gallery/foto2.webp",
+            "assets/products/109-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 110,
+          "name": "Dúo de Máscaras Batman y Gatúbela",
+          "desc": "Las dos máscaras juntas.",
+          "price": "$150.000",
+          "waPrice": "$150.000",
+          "image": "assets/products/110.webp"
+        },
+        {
+          "id": 37,
+          "name": "Máscara Inferior Oni Demonio",
+          "desc": "Jaw mask estilo oni demonio.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/37-gallery/nuevo.webp",
+          "gallery": [
+            "assets/products/37-gallery/nuevo.webp",
+            "assets/products/37.webp"
+          ]
+        },
+        {
+          "id": 111,
+          "name": "Máscara de Demonio con Cuernos",
+          "desc": "Máscara de demonio con cuernos, en varios colores.",
+          "price": "$85.000",
+          "waPrice": "$85.000",
+          "image": "assets/products/111.webp",
+          "gallery": [
+            "assets/products/111.webp",
+            "assets/products/111-gallery/foto2.webp",
+            "assets/products/111-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 112,
+          "name": "Máscara Súcubo con Cuernos",
+          "desc": "Máscara con cuernos y detalles calados.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/112.webp",
+          "gallery": [
+            "assets/products/112.webp",
+            "assets/products/112-gallery/foto2.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llaveros",
+      "label": "Llaveros y Útiles",
+      "products": [
+        {
+          "id": 47,
+          "name": "Llavero de Flor con Nombre",
+          "desc": "Perfecto como regalo. Mide 5 × 5 cm.",
+          "price": "$17.000",
+          "waPrice": "$17.000",
+          "personalizable": true,
+          "image": "assets/products/47.webp"
+        },
+        {
+          "id": 48,
+          "name": "Llavero de Nombre con Charm",
+          "desc": "Llavero con tu nombre y un charm. Se le pueden añadir más charms por +$1.000 cada uno.",
+          "price": "$12.000",
+          "waPrice": "$12.000",
+          "personalizable": true,
+          "image": "assets/products/48.webp"
+        },
+        {
+          "id": 49,
+          "name": "Llavero con Nombre Personalizado",
+          "desc": "Varios estilos: barra, pixel y letra cursiva. El precio depende del tamaño.",
+          "price": "$15.000 - $20.000 según tamaño",
+          "waPrice": "$15.000 - $20.000 según tamaño",
+          "personalizable": true,
+          "image": "assets/products/49-gallery/maleah.webp",
+          "gallery": [
+            "assets/products/49-gallery/maleah.webp",
+            "assets/products/49-gallery/oliver.webp",
+            "assets/products/49-gallery/bianca.webp"
+          ]
+        },
+        {
+          "id": 136,
+          "name": "Llavero Cámara con Foto y Nombre",
+          "desc": "Cámara instantánea con tu foto y tu nombre.",
+          "price": "$20.000",
+          "waPrice": "$20.000",
+          "image": "assets/products/136.webp",
+          "personalizable": true,
+          "gallery": [
+            "assets/products/136.webp",
+            "assets/products/136-gallery/samuel.webp"
+          ]
+        },
+        {
+          "id": 116,
+          "name": "Llavero de Letra con Nombre",
+          "desc": "Llavero en forma de inicial con el nombre encima.",
+          "price": "$10.000",
+          "waPrice": "$10.000",
+          "image": "assets/products/116.webp",
+          "personalizable": true
+        },
+        {
+          "id": 115,
+          "name": "Charms para Llavero",
+          "desc": "Charms para añadir a tu llavero: los pequeños (camiseta, café, sobre, corona, huella) +$1.000 c/u y los corazones +$1.500 c/u.",
+          "price": "+$1.000 / +$1.500 c/u",
+          "waPrice": "+$1.000 (pequeños) / +$1.500 (corazones) cada uno",
+          "image": "assets/products/115.webp",
+          "gallery": [
+            "assets/products/115.webp",
+            "assets/products/115-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 50,
+          "name": "Portalápices Espiral Geométrico",
+          "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños. Mide 7 × 7 × 15 cm.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/50.webp"
+        },
+        {
+          "id": 51,
+          "name": "Caja Organizadora con Texto",
+          "desc": "Tipo maletín, con el texto personalizado que quieras. Mira la foto con las medidas.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "personalizable": true,
+          "image": "assets/products/51.webp",
+          "gallery": [
+            "assets/products/51.webp",
+            "assets/products/51-gallery/medidas.webp"
+          ]
+        }
+      ],
+      "badge": "✦ Desde 5 llaveros con nombre: 10% de descuento"
+    },
+    {
       "id": "halloween",
       "label": "Halloween",
       "temporary": true,
@@ -70,719 +1137,6 @@ const YISHU_DATA = {
           "price": "$25.000",
           "waPrice": "$25.000",
           "image": "assets/products/8.webp"
-        }
-      ]
-    },
-    {
-      "id": "navidad",
-      "label": "Navidad",
-      "temporary": true,
-      "theme": "navidad",
-      "products": [
-        {
-          "id": 9,
-          "name": "Esquina Navideña para Puerta o Interruptor",
-          "desc": "Árbol, bastón de dulce, regalos y copos de nieve.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/9.webp"
-        },
-        {
-          "id": 10,
-          "name": "Casitas de Piñas Colgantes para Árbol",
-          "desc": "Disponibles sin luz o con luz.",
-          "price": "$18.000 - $25.000",
-          "waPrice": "$18.000 - $25.000",
-          "image": "assets/products/10.webp"
-        },
-        {
-          "id": 11,
-          "name": "Mano del Grinch",
-          "desc": "Doble uso: portabotellas de vino o decoración de pared / sostén para esferas.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/11.webp",
-          "gallery": [
-            "assets/products/11.webp",
-            "assets/products/11-gallery/sostiene-esfera.webp"
-          ]
-        },
-        {
-          "id": 12,
-          "name": "Esfera Navideña con Nombre",
-          "desc": "Árbol y copos de nieve, colores rojo/verde.",
-          "price": "$18.000",
-          "waPrice": "$18.000",
-          "personalizable": true,
-          "image": "assets/products/12.webp"
-        },
-        {
-          "id": 13,
-          "name": "Placa de Gato Navideña con Nombre",
-          "desc": "Para colgar, con copos de nieve y bigotes.",
-          "price": "$18.000",
-          "waPrice": "$18.000",
-          "personalizable": true,
-          "image": "assets/products/13.webp"
-        },
-        {
-          "id": 14,
-          "name": "Figuras Navideñas para el Árbol con Nombre",
-          "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella.",
-          "price": "$15.000 c/u",
-          "waPrice": "$15.000",
-          "personalizable": true,
-          "image": "assets/products/14.webp"
-        }
-      ]
-    },
-    {
-      "id": "mascotas",
-      "label": "Mascotas",
-      "products": [
-        {
-          "id": 76,
-          "name": "Casco Guerrero para Mascota",
-          "desc": "Casco estilo guerrero/vikingo, se ajusta a la cabeza del perro o gato.",
-          "price": "$30.000 - $40.000",
-          "waPrice": "$30.000 - $40.000",
-          "image": "assets/products/76.webp"
-        },
-        {
-          "id": 77,
-          "name": "Placa de Collar con Nombre",
-          "desc": "Placa en forma de huesito para colgar del collar.",
-          "price": "$20.000",
-          "waPrice": "$20.000",
-          "personalizable": true,
-          "image": "assets/products/77.webp"
-        },
-        {
-          "id": 78,
-          "name": "Cuchara Medidora para Comida de Perro",
-          "desc": "Forma de huella, para porcionar la comida.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "personalizable": true,
-          "image": "assets/products/78.webp"
-        },
-        {
-          "id": 79,
-          "name": "Ganchos de Pared Patica",
-          "desc": "Gancho de pared en forma de huella para colgar correas. Colores a elección.",
-          "price": "$15.000 c/u",
-          "waPrice": "$15.000",
-          "image": "assets/products/79.webp"
-        },
-        {
-          "id": 80,
-          "name": "Cuchara Medidora para Comida de Gato",
-          "desc": "Forma de espina de pescado, para porcionar la comida.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "personalizable": true,
-          "image": "assets/products/80.webp"
-        },
-        {
-          "id": 81,
-          "name": "Estación de Correa Personalizada",
-          "desc": "Panel de pared con gancho de correa, gancho de llaves y bandeja para snacks.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "personalizable": true,
-          "image": "assets/products/81.webp"
-        },
-        {
-          "id": 82,
-          "name": "Máscara Cráneo para Mascota",
-          "desc": "Máscara tipo cráneo con su hueso a juego, se ajusta a la cabeza.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/82.webp",
-          "gallery": [
-            "assets/products/82.webp",
-            "assets/products/82-gallery/foto2.webp"
-          ]
-        },
-        {
-          "id": 83,
-          "name": "Sombrero de Copa para Gato",
-          "desc": "Sombrero mini ajustable.",
-          "price": "$20.000",
-          "waPrice": "$20.000",
-          "image": "assets/products/83.webp"
-        }
-      ]
-    },
-    {
-      "id": "cuadros",
-      "label": "Cuadros",
-      "products": [
-        {
-          "id": 15,
-          "name": "Cuadro Gran Ola Japonesa (Kanagawa)",
-          "desc": "Sol rojo, capas y sombra, marco negro.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/15.webp"
-        },
-        {
-          "id": 16,
-          "name": "Cuadro Planta Blanca",
-          "desc": "Rama con hojas sobre sol y arco minimalista.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/16.webp"
-        },
-        {
-          "id": 17,
-          "name": "Cuadro Triple de Árbol",
-          "desc": "Silueta de árbol en tres piezas.",
-          "price": "$38.000",
-          "waPrice": "$38.000",
-          "image": "assets/products/17.webp"
-        },
-        {
-          "id": 18,
-          "name": "Cuadro Montaña y Cascada",
-          "desc": "Dos piezas triangulares.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/18.webp"
-        },
-        {
-          "id": 19,
-          "name": "Cuadro Triple Paisaje Japonés",
-          "desc": "Torii, monte Fuji con sol y árbol, tres piezas.",
-          "price": "$38.000",
-          "waPrice": "$38.000",
-          "image": "assets/products/19.webp"
-        }
-      ]
-    },
-    {
-      "id": "decoracion-casa",
-      "label": "Decoración para la Casa",
-      "products": [
-        {
-          "id": 20,
-          "name": "Sujetalibros Mano de Esqueleto",
-          "desc": "Par de sujetalibros decorativos.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/20.webp"
-        },
-        {
-          "id": 21,
-          "name": "Decoración de Pared Templo Japonés con Base",
-          "desc": "Paisaje con pagoda, luna y bonsái.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "image": "assets/products/21.webp"
-        },
-        {
-          "id": 22,
-          "name": "Organizador de Baño con Portarrollos",
-          "desc": "Incluye bandeja superior y cajón organizador.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/22.webp"
-        },
-        {
-          "id": 23,
-          "name": "Decoración de Peces Koi en Círculo con Base",
-          "desc": "Pieza decorativa con base.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/23.webp"
-        },
-        {
-          "id": 24,
-          "name": "Estante de Pared Ondulado",
-          "desc": "",
-          "price": "$200.000",
-          "waPrice": "$200.000",
-          "image": "assets/products/24.webp"
-        },
-        {
-          "id": 25,
-          "name": "Repisa Flotante Hoja de Monstera",
-          "desc": "Con espacio para maceta.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/25.webp"
-        },
-        {
-          "id": 26,
-          "name": "Repisa Flotante Estilo Árbol",
-          "desc": "Le suma un aire natural a cualquier pared vacía.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/26.webp"
-        },
-        {
-          "id": 72,
-          "name": "Gato Flotante en Repisas",
-          "desc": "El gatico y sus 3 repisas redondas se instalan en la pared a distintas alturas, dando el efecto de que camina flotando en el aire.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/72.webp"
-        },
-        {
-          "id": 73,
-          "name": "Set Safari (4 piezas)",
-          "desc": "Mono, jirafa, elefante y león en silueta, para pared de cuarto de bebé. Colores pastel a elección.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/73.webp"
-        },
-        {
-          "id": 74,
-          "name": "Letra Decorativa con Nombre",
-          "desc": "Perfecta para regalar o decorar la casita o las habitaciones.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
-          "personalizable": true,
-          "image": "assets/products/74.webp"
-        },
-        {
-          "id": 75,
-          "name": "Letra Decorativa con Nombre y Decoración Temática",
-          "desc": "Incluye decoración temática alrededor de la letra: nubes, globos y hojas. Ideal para cuarto de bebé o niños.",
-          "price": "$38.000",
-          "waPrice": "$38.000",
-          "personalizable": true,
-          "image": "assets/products/75.webp"
-        },
-        {
-          "id": 90,
-          "name": "Portabotellas de Vino Salchicha Low-Poly",
-          "desc": "Perrito salchicha estilo low-poly (facetado), sostiene la botella sobre el lomo.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/90.webp"
-        }
-      ]
-    },
-    {
-      "id": "gaming",
-      "label": "Gaming",
-      "products": [
-        {
-          "id": 27,
-          "name": "Soporte para Control PS5 Demonio Oni",
-          "desc": "",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/27.webp"
-        },
-        {
-          "id": 28,
-          "name": "Soporte Doble GTA VI para Controles y Audífonos",
-          "desc": "Sostiene 2 controles y unos audífonos.",
-          "price": "$70.000",
-          "waPrice": "$70.000",
-          "image": "assets/products/28.webp"
-        },
-        {
-          "id": 29,
-          "name": "Set Decorativo Pac-Man y Fantasmas",
-          "desc": "Set de 5 piezas.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/29.webp"
-        }
-      ]
-    },
-    {
-      "id": "lamparas",
-      "label": "Lámparas",
-      "products": [
-        {
-          "id": 30,
-          "name": "Lámpara Japonesa Cuadrada Geométrica",
-          "desc": "Patrón shoji.",
-          "price": "$38.000",
-          "waPrice": "$38.000",
-          "image": "assets/products/30.webp"
-        },
-        {
-          "id": 31,
-          "name": "Lámpara Japonesa Shoji de Mesa",
-          "desc": "",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/31.webp"
-        },
-        {
-          "id": 32,
-          "name": "Farol Japonés Estilo Pagoda",
-          "desc": "Con luz cálida integrada.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/32.webp"
-        }
-      ]
-    },
-    {
-      "id": "mascaras",
-      "label": "Máscaras",
-      "products": [
-        {
-          "id": 34,
-          "name": "Máscara Inferior Calavera",
-          "desc": "Jaw mask estilo esqueleto, blanca.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/34.png"
-        },
-        {
-          "id": 35,
-          "name": "Máscara Facial Geométrica Low-Poly",
-          "desc": "Rostro facetado, blanca.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/35.png"
-        },
-        {
-          "id": 36,
-          "name": "Máscara de Gato Negra",
-          "desc": "Estilo cuero con costuras y orejas.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/36.png"
-        },
-        {
-          "id": 37,
-          "name": "Máscara Inferior Oni Demonio",
-          "desc": "Jaw mask estilo oni demonio.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/37.webp"
-        }
-      ]
-    },
-    {
-      "id": "negocios",
-      "label": "Negocios",
-      "products": [
-        {
-          "id": 38,
-          "name": "Stand NFC + QR para Redes Sociales",
-          "desc": "Plantilla estándar, elige el ícono: Facebook, LinkedIn, Google Reviews, TikTok, Tripadvisor, WhatsApp, YouTube o WiFi.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/38.webp",
-          "gallery": [
-            "assets/products/38.webp",
-            "assets/products/38-gallery/wifi.webp",
-            "assets/products/38-gallery/linkedin.webp",
-            "assets/products/38-gallery/google.webp",
-            "assets/products/38-gallery/tiktok.webp",
-            "assets/products/38-gallery/tripadvisor.webp",
-            "assets/products/38-gallery/youtube.webp",
-            "assets/products/38-gallery/facebook.webp"
-          ]
-        },
-        {
-          "id": 39,
-          "name": "Stand \"Síguenos\" con QR",
-          "desc": "Forma de pulgar arriba.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/39.webp"
-        },
-        {
-          "id": 40,
-          "name": "Stand de Negocio Personalizado",
-          "desc": "Con tu logo y redes sociales, hecho a la medida de tu negocio.",
-          "price": "$40.000 - $60.000 según complejidad",
-          "waPrice": null,
-          "quote": true,
-          "image": "assets/products/40.webp",
-          "gallery": [
-            "assets/products/40.webp",
-            "assets/products/40-gallery/healthy-woman.webp",
-            "assets/products/40-gallery/casa-boheme.webp",
-            "assets/products/40-gallery/lucky-baby-bow.webp"
-          ]
-        },
-        {
-          "id": 91,
-          "name": "Stand \"Scan to Pay\" con 3 QR",
-          "desc": "Stand octagonal con 3 códigos QR de pago y texto personalizado.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/91.webp"
-        },
-        {
-          "id": 92,
-          "name": "Stand de Negocio con NFC para Redes y Pagos",
-          "desc": "Con espacio para logo, punto de contacto NFC y hasta 3 íconos de redes o métodos de pago.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/92.webp"
-        },
-        {
-          "id": 93,
-          "name": "Tarjetero de Escritorio Personalizado",
-          "desc": "Diseño temático según tu marca o servicio: veterinaria, salón de belleza, consultorio, oficina y más.",
-          "price": "$20.000 - $30.000 según diseño",
-          "waPrice": null,
-          "quote": true,
-          "image": "assets/products/93.webp",
-          "gallery": [
-            "assets/products/93.webp",
-            "assets/products/93-gallery/veterinaria.webp",
-            "assets/products/93-gallery/legal.webp",
-            "assets/products/93-gallery/dental.webp"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "organizadores",
-      "label": "Organizadores",
-      "products": [
-        {
-          "id": 41,
-          "name": "Organizador de Joyas de Mesa",
-          "desc": "Para aretes, collares y anillos.",
-          "price": "$20.000",
-          "waPrice": "$20.000",
-          "image": "assets/products/41.webp"
-        },
-        {
-          "id": 42,
-          "name": "Organizador de Escritorio para Celular y Accesorios",
-          "desc": "Con cajón y gancho para llaves.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/42.webp"
-        },
-        {
-          "id": 43,
-          "name": "Organizador de Mesita de Noche",
-          "desc": "Para celular, reloj, billetera o lo que necesites cerca de tu cama, con espacio para cargador inalámbrico (compatible con iPhone y Samsung). No incluye cargador.",
-          "price": "$60.000",
-          "waPrice": "$60.000",
-          "image": "assets/products/43.webp"
-        },
-        {
-          "id": 44,
-          "name": "Organizador Árbol para Joyas",
-          "desc": "Con cajones.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/44.webp"
-        },
-        {
-          "id": 45,
-          "name": "Organizador de Pared Modular",
-          "desc": "Paneles con ganchos y repisas.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/45.webp"
-        },
-        {
-          "id": 46,
-          "name": "Organizador de Closet",
-          "desc": "Cestas para el espacio detrás de los ganchos.",
-          "price": "$30.000 c/u",
-          "waPrice": "$30.000",
-          "image": "assets/products/46.webp"
-        }
-      ]
-    },
-    {
-      "id": "colegio",
-      "label": "Regreso a Clases",
-      "products": [
-        {
-          "id": 47,
-          "name": "Llavero de Flor con Nombre",
-          "desc": "Perfecto como regalo.",
-          "price": "$19.900",
-          "waPrice": "$19.900",
-          "personalizable": true,
-          "image": "assets/products/47.webp"
-        },
-        {
-          "id": 48,
-          "name": "Llavero de Nombre en Barra",
-          "desc": "Unidad, colores a elección.",
-          "price": "$19.900",
-          "waPrice": "$19.900",
-          "personalizable": true,
-          "image": "assets/products/48.webp"
-        },
-        {
-          "id": 49,
-          "name": "Llavero para Maleta/Mochila con Nombre",
-          "desc": "Tipo etiqueta.",
-          "price": "$19.900",
-          "waPrice": "$19.900",
-          "personalizable": true,
-          "image": "assets/products/49.webp"
-        },
-        {
-          "id": 50,
-          "name": "Portalápices Espiral Geométrico",
-          "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
-          "image": "assets/products/50.webp"
-        },
-        {
-          "id": 51,
-          "name": "Caja Organizadora con Texto",
-          "desc": "Tipo maletín, ideal como regalo.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "personalizable": true,
-          "image": "assets/products/51.webp"
-        }
-      ]
-    },
-    {
-      "id": "aretes",
-      "label": "Aretes",
-      "products": [
-        {
-          "id": 60,
-          "name": "Aretes Perrito Globo",
-          "desc": "Contorno negro.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/60.webp"
-        },
-        {
-          "id": 61,
-          "name": "Aretes Amanecer Japonés",
-          "desc": "Inspirados en los aretes de Tanjiro, de Demon Slayer.",
-          "price": "$15.000",
-          "waPrice": "$15.000",
-          "image": "assets/products/61.webp"
-        },
-        {
-          "id": 62,
-          "name": "Aretes Máscara Oni Demonio",
-          "desc": "Negro.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/62.webp"
-        },
-        {
-          "id": 64,
-          "name": "Aretes Corona de Flores con Lazo",
-          "desc": "Blanco y rosado.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/64.webp"
-        },
-        {
-          "id": 65,
-          "name": "Aretes Hombre de Jengibre",
-          "desc": "Diseño navideño.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/65.webp"
-        },
-        {
-          "id": 66,
-          "name": "Aretes Pez Dorado en Bolsa",
-          "desc": "",
-          "price": "$12.000",
-          "waPrice": "$12.000",
-          "image": "assets/products/66.webp"
-        },
-        {
-          "id": 67,
-          "name": "Aretes Halloween Fantasma y Murciélago con Lazo",
-          "desc": "",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/67.webp"
-        },
-        {
-          "id": 68,
-          "name": "Aretes Huevito con Patitas",
-          "desc": "Diseño de pollito.",
-          "price": "$12.000",
-          "waPrice": "$12.000",
-          "image": "assets/products/68.webp"
-        },
-        {
-          "id": 69,
-          "name": "Aretes Pez Koi",
-          "desc": "Contorno negro.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/69.webp"
-        },
-        {
-          "id": 70,
-          "name": "Aretes Corazón Tejido Rojo",
-          "desc": "Estilo crochet.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/70.webp"
-        },
-        {
-          "id": 71,
-          "name": "Aretes Zorro",
-          "desc": "Zorrito en tres partes colgantes: cabeza, cuerpo y cola.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/71.webp"
-        },
-        {
-          "id": 84,
-          "name": "Aretes Avión de Papel",
-          "desc": "Blanco.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/84.webp"
-        },
-        {
-          "id": 85,
-          "name": "Aretes Cámara Instantánea",
-          "desc": "Rosado, con charm de foto colgando.",
-          "price": "$15.000",
-          "waPrice": "$15.000",
-          "image": "assets/products/85.webp"
-        },
-        {
-          "id": 86,
-          "name": "Aretes Cassette",
-          "desc": "Rosado.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/86.webp"
-        },
-        {
-          "id": 87,
-          "name": "Aretes Colombina de Corazón",
-          "desc": "Paleta en forma de corazón.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/87.webp"
-        },
-        {
-          "id": 88,
-          "name": "Aretes Gato Saltando",
-          "desc": "Silueta negra.",
-          "price": "$8.000",
-          "waPrice": "$8.000",
-          "image": "assets/products/88.webp"
-        },
-        {
-          "id": 89,
-          "name": "Aretes Perrito de Línea Continua",
-          "desc": "Diseño de un solo trazo, negro.",
-          "price": "$8.000",
-          "waPrice": "$8.000",
-          "image": "assets/products/89.webp"
         }
       ]
     },

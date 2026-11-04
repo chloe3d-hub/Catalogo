@@ -128,6 +128,7 @@
     head.appendChild(el("h3", titleClass, section.label));
     head.appendChild(el("p", "category__cta", `<strong>¿Buscas algo distinto?</strong> Aceptamos pedidos personalizados y tus propias ideas — escríbenos.`));
     head.appendChild(el("p", "category__color-note", "🎨 Todos los colores se pueden personalizar sin cambio de precio."));
+    if (section.badge) head.appendChild(el("p", "category__badge", section.badge));
     wrap.appendChild(head);
 
     const grid = el("div", "grid");
@@ -193,6 +194,24 @@
       });
   }
 
+  // Halloween vive al final dentro de un desplegable. Si llegan por el menú
+  // o por un enlace con #halloween, se abre solo para que no parezca vacío.
+  function setupHalloweenFold() {
+    const fold = document.getElementById("halloween-fold");
+    if (!fold) return;
+    const openIfNeeded = () => {
+      if (location.hash === "#halloween") fold.open = true;
+    };
+    openIfNeeded();
+    window.addEventListener("hashchange", () => {
+      openIfNeeded();
+      if (location.hash === "#halloween") {
+        const target = document.getElementById("halloween");
+        if (target) target.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  }
+
   // Página principal: todo el catálogo excepto el +18.
   function initMainCatalog() {
     renderNav();
@@ -202,6 +221,8 @@
 
     if (bySectionId.halloween) renderGrid("grid-halloween", bySectionId.halloween.products);
     if (bySectionId.navidad) renderGrid("grid-navidad", bySectionId.navidad.products);
+
+    setupHalloweenFold();
 
     const catalogRoot = document.getElementById("catalog-sections");
     if (catalogRoot) {
