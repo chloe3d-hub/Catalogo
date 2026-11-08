@@ -168,16 +168,16 @@ const YISHU_DATA = {
           "id": 131,
           "name": "Jesús Sentado para Pantalla",
           "desc": "Figura para poner sobre la pantalla del computador.",
-          "price": "$5.000",
-          "waPrice": "$5.000",
+          "price": "$8.000 c/u",
+          "waPrice": "$8.000",
           "image": "assets/products/131.webp"
         },
         {
           "id": 138,
           "name": "Virgen Sentada para Pantalla",
           "desc": "Figura para poner sobre la pantalla del computador.",
-          "price": "$5.000",
-          "waPrice": "$5.000",
+          "price": "$8.000 c/u",
+          "waPrice": "$8.000",
           "image": "assets/products/138.webp"
         },
         {
