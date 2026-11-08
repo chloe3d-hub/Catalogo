@@ -160,8 +160,8 @@ const YISHU_DATA = {
           "id": 132,
           "name": "Santa Sentado para Pantalla",
           "desc": "Figura de Santa para poner sobre la pantalla del computador.",
-          "price": "$7.000",
-          "waPrice": "$7.000",
+          "price": "$8.000 c/u",
+          "waPrice": "$8.000",
           "image": "assets/products/132.webp"
         },
         {
