@@ -726,3 +726,130 @@ body.no-scroll { overflow: hidden; }
   font-weight: 700;
   letter-spacing: 0.02em;
 }
+
+/* -------------------------------------------------------------------- */
+/* Menú de categorías en rueda                                           */
+/* En pantallas grandes: columna fija a la izquierda. En celular: una    */
+/* pastilla abajo que se abre en la rueda. Sin líneas decorativas.       */
+/* -------------------------------------------------------------------- */
+
+.wheel { position: fixed; z-index: 600; }
+
+.wheel__drum {
+  position: relative;
+  width: 196px;
+  height: 266px; /* 7 filas de 38px */
+}
+
+.wheel__track {
+  position: absolute;
+  inset: 0;
+  perspective: 520px;
+  perspective-origin: 0 50%;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 24%, #000 76%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 24%, #000 76%, transparent 100%);
+}
+
+.wheel__item {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 38px;
+  margin-top: -19px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 8px 0 14px;
+  font-size: 13px;
+  white-space: nowrap;
+  color: var(--white-dim);
+  transform-origin: 0 50%;
+  will-change: transform, opacity;
+}
+
+.wheel--ready .wheel__item {
+  transition: transform .5s cubic-bezier(.2, .8, .2, 1), opacity .5s ease, color .3s ease;
+}
+
+.wheel__item:hover { color: var(--white); }
+.wheel__item.is-active { color: var(--white); font-weight: 500; }
+.wheel__item:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; border-radius: 8px; }
+
+.wheel__dot {
+  flex: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: transparent;
+  transition: background .3s ease;
+}
+.wheel__item.is-active .wheel__dot { background: var(--red); }
+
+.wheel__pill { display: none; }
+
+/* Pantalla grande: columna propia a la izquierda para no tapar tarjetas */
+@media (min-width: 1100px) {
+  body { padding-left: 196px; }
+  .wheel { left: 0; top: 50%; transform: translateY(-50%); }
+}
+
+/* Celular y tablet: pastilla flotante que se abre en rueda */
+@media (max-width: 1099px) {
+  .wheel { left: 12px; bottom: 14px; }
+
+  .wheel__pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: calc(100vw - 24px);
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(20, 20, 22, 0.62);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  }
+
+  .wheel__pill-label { display: inline-block; white-space: nowrap; }
+  .wheel__pill-label--roll { animation: wheel-roll .4s ease both; }
+  .wheel__chev { font-size: 11px; transition: transform .3s ease; }
+  .wheel--open .wheel__chev { transform: rotate(180deg); }
+
+  .wheel__drum {
+    position: absolute;
+    left: 0;
+    bottom: 54px;
+    height: 190px; /* 5 filas */
+    width: min(260px, calc(100vw - 24px));
+    border-radius: 20px;
+    background: rgba(14, 14, 16, 0.72);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity .25s ease, transform .25s ease, visibility .25s;
+  }
+  .wheel--open .wheel__drum { opacity: 1; visibility: visible; transform: none; }
+}
+
+@keyframes wheel-roll {
+  from { opacity: 0; transform: translateY(70%) rotateX(-70deg); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wheel--ready .wheel__item,
+  .wheel__drum { transition: none; }
+  .wheel__pill-label--roll { animation: none; }
+}
+
+/* Aviso de envío gratis */
+.custom-banner--ship { margin-top: 0; }

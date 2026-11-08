@@ -185,8 +185,9 @@
     const nav = document.getElementById("site-nav");
     if (!nav) return;
     // El catálogo +18 vive aparte (smokeshop.html), no sale en el menú principal.
+    // Las categorías con "hidden": true se saltan (se quitan por ahora, sin borrar sus productos).
     DATA.sections
-      .filter((s) => s.id !== "smokeshop")
+      .filter((s) => s.id !== "smokeshop" && !s.hidden)
       .forEach((section) => {
         const a = el("a", null, section.label);
         a.href = "#" + section.id;
@@ -227,9 +228,139 @@
     const catalogRoot = document.getElementById("catalog-sections");
     if (catalogRoot) {
       DATA.sections
-        .filter((s) => s.id !== "halloween" && s.id !== "navidad" && s.id !== "smokeshop")
+        .filter((s) => s.id !== "halloween" && s.id !== "navidad" && s.id !== "smokeshop" && !s.hidden)
         .forEach((section) => catalogRoot.appendChild(renderCatalogSection(section)));
     }
+
+    setupWheelMenu();
+  }
+
+  // -------------------------------------------------------------------
+  // Menú de categorías en rueda: acompaña el scroll, muestra en qué
+  // categoría estás (las vecinas se van desvaneciendo) y al tocar una
+  // baja directo a ella. En pantallas grandes vive a la izquierda; en
+  // celular es una pastilla abajo que se abre en la rueda.
+  // -------------------------------------------------------------------
+  function setupWheelMenu() {
+    const sections = DATA.sections.filter(
+      (s) => !s.hidden && s.id !== "smokeshop" && document.getElementById(s.id)
+    );
+    if (!sections.length) return;
+
+    const ITEM_H = 38;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const nav = el("nav", "wheel");
+    nav.setAttribute("aria-label", "Categorías del catálogo");
+
+    const pill = el("button", "wheel__pill");
+    pill.type = "button";
+    pill.setAttribute("aria-expanded", "false");
+    pill.setAttribute("aria-label", "Ver categorías");
+    const pillLabel = el("span", "wheel__pill-label");
+    pill.appendChild(pillLabel);
+    pill.appendChild(el("span", "wheel__chev", "▴"));
+    nav.appendChild(pill);
+
+    const drum = el("div", "wheel__drum");
+    const track = el("div", "wheel__track");
+    drum.appendChild(track);
+    const items = sections.map((s, i) => {
+      const a = el("a", "wheel__item");
+      a.href = "#" + s.id;
+      a.appendChild(el("span", "wheel__dot"));
+      a.appendChild(el("span", "wheel__text", s.label));
+      a.addEventListener("click", (ev) => {
+        ev.preventDefault();
+        goTo(i);
+      });
+      track.appendChild(a);
+      return a;
+    });
+    nav.appendChild(drum);
+
+    let active = -1;
+
+    function layout() {
+      items.forEach((a, i) => {
+        const o = i - active;
+        const ao = Math.abs(o);
+        const visible = ao <= 3;
+        a.style.transform = `translateY(${o * ITEM_H * 0.94}px) rotateX(${-o * 17}deg) scale(${1 - ao * 0.06})`;
+        a.style.opacity = visible ? String(Math.max(0, 1 - ao * 0.3)) : "0";
+        a.style.pointerEvents = visible ? "auto" : "none";
+        a.tabIndex = visible ? 0 : -1;
+        a.classList.toggle("is-active", o === 0);
+        if (o === 0) a.setAttribute("aria-current", "true");
+        else a.removeAttribute("aria-current");
+      });
+    }
+
+    function setActive(i) {
+      if (i === active) return;
+      const first = active === -1;
+      active = i;
+      layout();
+      pillLabel.textContent = sections[i].label;
+      if (!first && !reduceMotion) {
+        pillLabel.classList.remove("wheel__pill-label--roll");
+        void pillLabel.offsetWidth; // reinicia la animación
+        pillLabel.classList.add("wheel__pill-label--roll");
+      }
+    }
+
+    function currentIndex() {
+      const doc = document.documentElement;
+      if (window.scrollY + window.innerHeight >= doc.scrollHeight - 4) return sections.length - 1;
+      const mid = window.innerHeight * 0.4;
+      let idx = 0;
+      sections.forEach((s, i) => {
+        const t = document.getElementById(s.id);
+        if (t && t.getBoundingClientRect().top <= mid) idx = i;
+      });
+      return idx;
+    }
+
+    function setOpen(open) {
+      nav.classList.toggle("wheel--open", open);
+      pill.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+
+    function goTo(i) {
+      const id = sections[i].id;
+      if (id === "halloween") {
+        const fold = document.getElementById("halloween-fold");
+        if (fold) fold.open = true;
+      }
+      const target = document.getElementById(id);
+      setOpen(false);
+      if (target) target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+    }
+
+    pill.addEventListener("click", () => setOpen(!nav.classList.contains("wheel--open")));
+    document.addEventListener("click", (ev) => {
+      if (!nav.contains(ev.target)) setOpen(false);
+    });
+    document.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") setOpen(false);
+    });
+
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        setActive(currentIndex());
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+
+    document.body.appendChild(nav);
+    setActive(currentIndex());
+    // Las transiciones se activan después del primer acomodo para que no "salte" al cargar.
+    requestAnimationFrame(() => nav.classList.add("wheel--ready"));
   }
 
   // Página aparte del catálogo +18 (smokeshop.html): solo esa categoría, con su aviso.

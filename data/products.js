@@ -8,6 +8,42 @@ const YISHU_DATA = {
       "theme": "navidad",
       "products": [
         {
+          "id": 143,
+          "name": "Reno Navideño Grande",
+          "desc": "Reno sentado de nariz roja, con collar y campana. Mide 70 cm de alto.",
+          "price": "$450.000",
+          "waPrice": "$450.000",
+          "image": "assets/products/143.webp",
+          "gallery": [
+            "assets/products/143.webp",
+            "assets/products/143-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 142,
+          "name": "Muñeco de Nieve Grande",
+          "desc": "Muñeco de nieve con sombrero de copa, bufanda y brazos de ramas. Mide aprox. 50 cm de alto.",
+          "price": "$230.000",
+          "waPrice": "$230.000",
+          "image": "assets/products/142.webp",
+          "gallery": [
+            "assets/products/142.webp",
+            "assets/products/142-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 144,
+          "name": "Tren de Jengibre",
+          "desc": "Tren navideño de galleta de jengibre: locomotora, tres vagones, rieles y un hombrecito de jengibre. Mide 40 cm.",
+          "price": "$160.000",
+          "waPrice": "$160.000",
+          "image": "assets/products/144.webp",
+          "gallery": [
+            "assets/products/144.webp",
+            "assets/products/144-gallery/foto2.webp"
+          ]
+        },
+        {
           "id": 125,
           "name": "Pesebre con Ángel",
           "desc": "El nacimiento entre las alas de un ángel. Con luz sale a $50.000 y sin luz a $40.000.",
@@ -18,6 +54,38 @@ const YISHU_DATA = {
             "assets/products/125.webp",
             "assets/products/125-gallery/luz-calida.webp"
           ]
+        },
+        {
+          "id": 139,
+          "name": "Ángel con Aureola Dorada",
+          "desc": "Ángel con cuerpo en malla de rombos y aureola dorada. Mide 14,5 cm y se puede hacer en otros tamaños: pregunta. Al por mayor o por varias unidades hay descuento.",
+          "price": "$30.000 con luz · $25.000 sin luz",
+          "waPrice": "$30.000 con luz / $25.000 sin luz",
+          "image": "assets/products/139.webp",
+          "gallery": [
+            "assets/products/139.webp",
+            "assets/products/139-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 140,
+          "name": "Ángel Alado con Estrella",
+          "desc": "Ángel con alas y falda de detalles en espiral, sosteniendo una estrella. Mide 11 cm.",
+          "price": "$45.000 con luz · $40.000 sin luz",
+          "waPrice": "$45.000 con luz / $40.000 sin luz",
+          "image": "assets/products/140.webp",
+          "gallery": [
+            "assets/products/140.webp",
+            "assets/products/140-gallery/foto2.webp"
+          ]
+        },
+        {
+          "id": 141,
+          "name": "Ángel con Efecto Tejido",
+          "desc": "Ángel con textura que imita el tejido. Mide 10 cm y el tamaño se puede escalar: pregunta por otros tamaños.",
+          "price": "$20.000",
+          "waPrice": "$20.000",
+          "image": "assets/products/141.webp"
         },
         {
           "id": 130,
@@ -79,9 +147,9 @@ const YISHU_DATA = {
         {
           "id": 101,
           "name": "Reno Minimalista Acanalado",
-          "desc": "Figura decorativa de reno con acanalado fino, en varios colores.",
-          "price": "$35.000",
-          "waPrice": "$35.000",
+          "desc": "Figura decorativa de reno con acanalado fino, en varios colores. Precio por unidad.",
+          "price": "$35.000 c/u",
+          "waPrice": "$35.000 c/u",
           "image": "assets/products/101.webp",
           "gallery": [
             "assets/products/101.webp",
@@ -103,6 +171,14 @@ const YISHU_DATA = {
           "price": "$5.000",
           "waPrice": "$5.000",
           "image": "assets/products/131.webp"
+        },
+        {
+          "id": 138,
+          "name": "Virgen Sentada para Pantalla",
+          "desc": "Figura para poner sobre la pantalla del computador.",
+          "price": "$5.000",
+          "waPrice": "$5.000",
+          "image": "assets/products/138.webp"
         },
         {
           "id": 133,
@@ -132,8 +208,8 @@ const YISHU_DATA = {
           "id": 99,
           "name": "Bolas Decorativas Navideñas",
           "desc": "Esferas en varios diseños texturizados para colgar en el árbol. Se venden por unidad.",
-          "price": "$30.000 c/u",
-          "waPrice": "$30.000",
+          "price": "$20.000 c/u",
+          "waPrice": "$20.000",
           "image": "assets/products/99.webp"
         },
         {
@@ -148,27 +224,27 @@ const YISHU_DATA = {
         {
           "id": 121,
           "name": "Adorno Navideño de Bola con Nombre y Copos",
-          "desc": "Bola calada con tu nombre y copos de nieve.",
-          "price": "$8.000 c/u",
-          "waPrice": "$8.000",
+          "desc": "Bola con tu nombre y copos de nieve.",
+          "price": "$10.000 c/u",
+          "waPrice": "$10.000 c/u",
           "image": "assets/products/121.webp",
           "personalizable": true
         },
         {
           "id": 122,
-          "name": "Adorno Navideño de Bola Calada con Nombre",
-          "desc": "Bola calada con tu nombre y motivos navideños.",
-          "price": "$8.000 c/u",
-          "waPrice": "$8.000",
+          "name": "Adorno Navideño de Bola con Nombre",
+          "desc": "Bola con tu nombre y motivos navideños.",
+          "price": "$10.000 c/u",
+          "waPrice": "$10.000 c/u",
           "image": "assets/products/122.webp",
           "personalizable": true
         },
         {
           "id": 12,
           "name": "Esfera Navideña con Nombre",
-          "desc": "Árbol y copos de nieve, colores rojo/verde. Si llevas 4, salen a $50.000.",
-          "price": "$18.000 c/u · 4 por $50.000",
-          "waPrice": "$18.000 c/u (4 por $50.000)",
+          "desc": "Árbol y copos de nieve, colores rojo/verde.",
+          "price": "$10.000 c/u",
+          "waPrice": "$10.000 c/u",
           "personalizable": true,
           "image": "assets/products/12.webp",
           "gallery": [
@@ -177,22 +253,17 @@ const YISHU_DATA = {
           ]
         },
         {
-          "id": 13,
-          "name": "Placa de Gato Navideña con Nombre",
-          "desc": "Para colgar, con copos de nieve y bigotes.",
-          "price": "$18.000",
-          "waPrice": "$18.000",
-          "personalizable": true,
-          "image": "assets/products/13.webp"
-        },
-        {
           "id": 120,
           "name": "Adorno Navideño de Gatico con Nombre",
-          "desc": "Adorno de gatico con copos de nieve y tu nombre.",
-          "price": "$5.000 c/u",
-          "waPrice": "$5.000",
+          "desc": "Adorno de gatico con copos de nieve, bigotes y tu nombre, en rojo o café.",
+          "price": "$10.000 c/u",
+          "waPrice": "$10.000",
           "image": "assets/products/120.webp",
-          "personalizable": true
+          "personalizable": true,
+          "gallery": [
+            "assets/products/120.webp",
+            "assets/products/120-gallery/cafe.webp"
+          ]
         },
         {
           "id": 118,
@@ -215,9 +286,9 @@ const YISHU_DATA = {
         {
           "id": 117,
           "name": "Adorno Navideño con Foto y Nombre",
-          "desc": "Adorno para el árbol con la foto y el nombre que quieras. Sin foto $15.000, con foto $20.000. Desde 5 unidades hay descuento.",
-          "price": "$20.000 con foto · $15.000 sin foto",
-          "waPrice": "$20.000 con foto / $15.000 sin foto",
+          "desc": "Adorno para el árbol con la foto y el nombre que quieras. Con foto $12.000, sin foto $10.000. Desde 5 unidades hay descuento.",
+          "price": "$12.000 con foto · $10.000 sin foto",
+          "waPrice": "$12.000 con foto / $10.000 sin foto",
           "image": "assets/products/117.webp",
           "personalizable": true
         },
@@ -233,8 +304,8 @@ const YISHU_DATA = {
           "id": 14,
           "name": "Figuras Navideñas para el Árbol con Nombre",
           "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella.",
-          "price": "$15.000 c/u",
-          "waPrice": "$15.000",
+          "price": "$10.000 c/u",
+          "waPrice": "$10.000 c/u",
           "personalizable": true,
           "image": "assets/products/14.webp"
         },
@@ -249,9 +320,9 @@ const YISHU_DATA = {
         {
           "id": 10,
           "name": "Casitas de Piñas Colgantes para Árbol",
-          "desc": "Disponibles sin luz o con luz.",
-          "price": "$18.000 - $25.000",
-          "waPrice": "$18.000 - $25.000",
+          "desc": "Disponibles sin luz o con luz. Con luz sale a $23.000.",
+          "price": "$18.000 - $23.000",
+          "waPrice": "$18.000 - $23.000",
           "image": "assets/products/10.webp"
         },
         {
@@ -283,7 +354,7 @@ const YISHU_DATA = {
         {
           "id": 15,
           "name": "Cuadro Gran Ola Japonesa (Kanagawa)",
-          "desc": "Sol rojo, capas y sombra, marco negro.",
+          "desc": "Cuadro con fondo y varias capas superpuestas que le dan profundidad: sol rojo, ola y sombras. Marco negro.",
           "price": "$80.000",
           "waPrice": "$80.000",
           "image": "assets/products/15.webp"
@@ -292,16 +363,16 @@ const YISHU_DATA = {
           "id": 16,
           "name": "Cuadro Planta Blanca",
           "desc": "Rama con hojas sobre sol y arco minimalista.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
+          "price": "$40.000",
+          "waPrice": "$40.000",
           "image": "assets/products/16.webp"
         },
         {
           "id": 17,
           "name": "Cuadro Triple de Árbol",
           "desc": "Silueta de árbol en tres piezas.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
+          "price": "$35.000",
+          "waPrice": "$35.000",
           "image": "assets/products/17.webp"
         },
         {
@@ -324,8 +395,8 @@ const YISHU_DATA = {
           "id": 94,
           "name": "Cuadro Paisaje Japonés Detallado",
           "desc": "Río entre montañas y árboles rojos, con mucho detalle. Mide 20 cm de alto × 21,5 cm de ancho.",
-          "price": "$80.000",
-          "waPrice": "$80.000",
+          "price": "$60.000",
+          "waPrice": "$60.000",
           "image": "assets/products/94.webp"
         }
       ]
@@ -344,10 +415,10 @@ const YISHU_DATA = {
         },
         {
           "id": 21,
-          "name": "Decoración de Pared Templo Japonés con Base",
-          "desc": "Paisaje con pagoda, luna y bonsái. Mide 19,5 cm de alto × 23,5 cm de ancho. Con o sin brillitos.",
-          "price": "$25.000",
-          "waPrice": "$25.000",
+          "name": "Decoración Templo Japonés de Pared o con Base",
+          "desc": "Paisaje con pagoda, luna y bonsái. Se puede poner en la pared o sobre una base. Mide 19,5 cm de alto × 23,5 cm de ancho. Con o sin brillitos.",
+          "price": "$20.000 de pared · $25.000 con base",
+          "waPrice": "$20.000 de pared / $25.000 con base",
           "image": "assets/products/21.webp"
         },
         {
@@ -367,8 +438,8 @@ const YISHU_DATA = {
           "id": 23,
           "name": "Decoración de Peces Koi en Círculo con Base",
           "desc": "Pieza decorativa con base. Mide 20,5 cm de alto × 18 cm de ancho.",
-          "price": "$120.000",
-          "waPrice": "$120.000",
+          "price": "$100.000",
+          "waPrice": "$100.000",
           "image": "assets/products/23.webp"
         },
         {
@@ -391,8 +462,8 @@ const YISHU_DATA = {
           "id": 26,
           "name": "Repisa Flotante Estilo Árbol",
           "desc": "Le suma un aire natural a cualquier pared vacía.",
-          "price": "$65.000",
-          "waPrice": "$65.000",
+          "price": "$60.000",
+          "waPrice": "$60.000",
           "image": "assets/products/26.webp"
         },
         {
@@ -424,8 +495,8 @@ const YISHU_DATA = {
           "id": 75,
           "name": "Letra Decorativa con Nombre y Decoración Temática",
           "desc": "Incluye decoración temática alrededor de la letra: nubes, globos y hojas. Ideal para cuarto de bebé o niños.",
-          "price": "$38.000",
-          "waPrice": "$38.000",
+          "price": "$45.000",
+          "waPrice": "$45.000",
           "personalizable": true,
           "image": "assets/products/75.webp"
         },
@@ -438,8 +509,7 @@ const YISHU_DATA = {
           "image": "assets/products/103.webp",
           "gallery": [
             "assets/products/103.webp",
-            "assets/products/103-gallery/hector.webp",
-            "assets/products/103-gallery/alberto.webp"
+            "assets/products/103-gallery/hector.webp"
           ],
           "personalizable": true
         },
@@ -447,8 +517,8 @@ const YISHU_DATA = {
           "id": 104,
           "name": "Letra Decorativa con Nombre, Fecha y Peso de Nacimiento",
           "desc": "Letra con el nombre, la fecha, la hora y el peso de nacimiento, con osito en columpio, globo, nubes y estrellas.",
-          "price": "$100.000",
-          "waPrice": "$100.000",
+          "price": "$80.000",
+          "waPrice": "$80.000",
           "image": "assets/products/104.webp",
           "personalizable": true
         },
@@ -480,14 +550,6 @@ const YISHU_DATA = {
           "price": "$60.000 el set",
           "waPrice": "$60.000 (set de 2)",
           "image": "assets/products/95.webp"
-        },
-        {
-          "id": 102,
-          "name": "Figuras de Animales en Contorno",
-          "desc": "Set de siluetas de animales en varios colores. Cada figura mide aprox. 12-18 × 7-13 × 0,4 cm según el animal.",
-          "price": "$60.000",
-          "waPrice": "$60.000",
-          "image": "assets/products/102.webp"
         }
       ]
     },
@@ -559,8 +621,8 @@ const YISHU_DATA = {
           "id": 137,
           "name": "Cama Galleta para Gato",
           "desc": "Cama en forma de galleta gigante, con tapete incluido. Mide 35 × 47 cm. Envío gratis.",
-          "price": "$1.000.000",
-          "waPrice": "$1.000.000",
+          "price": "$820.000",
+          "waPrice": "$820.000",
           "image": "assets/products/137.webp",
           "gallery": [
             "assets/products/137.webp",
@@ -663,6 +725,76 @@ const YISHU_DATA = {
             "assets/products/93-gallery/veterinaria.webp",
             "assets/products/93-gallery/legal.webp",
             "assets/products/93-gallery/dental.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "products": [
+        {
+          "id": 27,
+          "name": "Soporte para Control PS5 Demonio Oni",
+          "desc": "Soporte para control de PS5 con máscara de demonio oni.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/27-gallery/nuevo.webp",
+          "gallery": [
+            "assets/products/27-gallery/nuevo.webp",
+            "assets/products/27.webp"
+          ]
+        },
+        {
+          "id": 108,
+          "name": "Soporte para Control PS5 Tentáculos",
+          "desc": "Soporte para control de PS5 con tentáculos.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/108.webp"
+        },
+        {
+          "id": 105,
+          "name": "Soporte para Control Xbox Pulpo",
+          "desc": "Soporte para control de Xbox con diseño de pulpo.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/105.webp"
+        },
+        {
+          "id": 106,
+          "name": "Soporte para Control Xbox Retrowave",
+          "desc": "Soporte para control de Xbox con diseño retrowave estilo Miami.",
+          "price": "$45.000",
+          "waPrice": "$45.000",
+          "image": "assets/products/106.webp"
+        },
+        {
+          "id": 107,
+          "name": "Soporte para Control Xbox Slime",
+          "desc": "Soporte para control de Xbox con base de slime goteando.",
+          "price": "$30.000",
+          "waPrice": "$30.000",
+          "image": "assets/products/107.webp"
+        },
+        {
+          "id": 28,
+          "name": "Soporte Doble GTA VI para Controles y Audífonos",
+          "desc": "Sostiene 2 controles y unos audífonos.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/28.webp"
+        },
+        {
+          "id": 29,
+          "name": "Set Decorativo Pac-Man y Fantasmas",
+          "desc": "Set de 5 piezas.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/29-gallery/nuevo.webp",
+          "gallery": [
+            "assets/products/29-gallery/nuevo.webp",
+            "assets/products/29.webp"
           ]
         }
       ]
@@ -795,76 +927,6 @@ const YISHU_DATA = {
       "badge": "✦ Llevando varios aretes hay descuento — pregúntanos"
     },
     {
-      "id": "gaming",
-      "label": "Gaming",
-      "products": [
-        {
-          "id": 27,
-          "name": "Soporte para Control PS5 Demonio Oni",
-          "desc": "Soporte para control de PS5 con máscara de demonio oni.",
-          "price": "$60.000",
-          "waPrice": "$60.000",
-          "image": "assets/products/27-gallery/nuevo.webp",
-          "gallery": [
-            "assets/products/27-gallery/nuevo.webp",
-            "assets/products/27.webp"
-          ]
-        },
-        {
-          "id": 108,
-          "name": "Soporte para Control PS5 Tentáculos",
-          "desc": "Soporte para control de PS5 con tentáculos.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/108.webp"
-        },
-        {
-          "id": 105,
-          "name": "Soporte para Control Xbox Pulpo",
-          "desc": "Soporte para control de Xbox con diseño de pulpo.",
-          "price": "$70.000",
-          "waPrice": "$70.000",
-          "image": "assets/products/105.webp"
-        },
-        {
-          "id": 106,
-          "name": "Soporte para Control Xbox Retrowave",
-          "desc": "Soporte para control de Xbox con diseño retrowave estilo Miami.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/106.webp"
-        },
-        {
-          "id": 107,
-          "name": "Soporte para Control Xbox Slime",
-          "desc": "Soporte para control de Xbox con base de slime goteando.",
-          "price": "$30.000",
-          "waPrice": "$30.000",
-          "image": "assets/products/107.webp"
-        },
-        {
-          "id": 28,
-          "name": "Soporte Doble GTA VI para Controles y Audífonos",
-          "desc": "Sostiene 2 controles y unos audífonos.",
-          "price": "$70.000",
-          "waPrice": "$70.000",
-          "image": "assets/products/28.webp"
-        },
-        {
-          "id": 29,
-          "name": "Set Decorativo Pac-Man y Fantasmas",
-          "desc": "Set de 5 piezas.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/29-gallery/nuevo.webp",
-          "gallery": [
-            "assets/products/29-gallery/nuevo.webp",
-            "assets/products/29.webp"
-          ]
-        }
-      ]
-    },
-    {
       "id": "lamparas",
       "label": "Lámparas",
       "products": [
@@ -892,95 +954,8 @@ const YISHU_DATA = {
           "waPrice": "$40.000",
           "image": "assets/products/32.webp"
         }
-      ]
-    },
-    {
-      "id": "mascaras",
-      "label": "Máscaras",
-      "products": [
-        {
-          "id": 34,
-          "name": "Máscara Inferior Calavera",
-          "desc": "Jaw mask estilo esqueleto, blanca.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "image": "assets/products/34-gallery/nuevo.webp"
-        },
-        {
-          "id": 35,
-          "name": "Máscara Facial Geométrica Low-Poly",
-          "desc": "Rostro facetado, blanca.",
-          "price": "$55.000",
-          "waPrice": "$55.000",
-          "image": "assets/products/35.webp"
-        },
-        {
-          "id": 36,
-          "name": "Máscara de Gatúbela",
-          "desc": "Estilo cuero con costuras y orejas.",
-          "price": "$60.000",
-          "waPrice": "$60.000",
-          "image": "assets/products/36-gallery/principal.webp",
-          "gallery": [
-            "assets/products/36-gallery/principal.webp",
-            "assets/products/36-gallery/collage.webp"
-          ]
-        },
-        {
-          "id": 109,
-          "name": "Máscara Batman",
-          "desc": "Máscara con cordón para sujetarla.",
-          "price": "$100.000",
-          "waPrice": "$100.000",
-          "image": "assets/products/109.webp",
-          "gallery": [
-            "assets/products/109.webp",
-            "assets/products/109-gallery/foto2.webp",
-            "assets/products/109-gallery/foto3.webp"
-          ]
-        },
-        {
-          "id": 110,
-          "name": "Dúo de Máscaras Batman y Gatúbela",
-          "desc": "Las dos máscaras juntas.",
-          "price": "$150.000",
-          "waPrice": "$150.000",
-          "image": "assets/products/110.webp"
-        },
-        {
-          "id": 37,
-          "name": "Máscara Inferior Oni Demonio",
-          "desc": "Jaw mask estilo oni demonio.",
-          "price": "$60.000",
-          "waPrice": "$60.000",
-          "image": "assets/products/37.webp"
-        },
-        {
-          "id": 111,
-          "name": "Máscara de Demonio con Cuernos",
-          "desc": "Máscara de demonio con cuernos, en varios colores.",
-          "price": "$85.000",
-          "waPrice": "$85.000",
-          "image": "assets/products/111.webp",
-          "gallery": [
-            "assets/products/111.webp",
-            "assets/products/111-gallery/foto2.webp",
-            "assets/products/111-gallery/foto3.webp"
-          ]
-        },
-        {
-          "id": 112,
-          "name": "Máscara Súcubo con Cuernos",
-          "desc": "Máscara con cuernos y detalles calados.",
-          "price": "$70.000",
-          "waPrice": "$70.000",
-          "image": "assets/products/112.webp",
-          "gallery": [
-            "assets/products/112.webp",
-            "assets/products/112-gallery/foto2.webp"
-          ]
-        }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "llaveros",
@@ -1075,6 +1050,94 @@ const YISHU_DATA = {
         }
       ],
       "badge": "✦ Desde 5 llaveros con nombre: 10% de descuento"
+    },
+    {
+      "id": "mascaras",
+      "label": "Máscaras",
+      "products": [
+        {
+          "id": 34,
+          "name": "Máscara Inferior Calavera",
+          "desc": "Jaw mask estilo esqueleto, blanca.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/34-gallery/nuevo.webp"
+        },
+        {
+          "id": 35,
+          "name": "Máscara Facial Geométrica Low-Poly",
+          "desc": "Rostro facetado, blanca.",
+          "price": "$55.000",
+          "waPrice": "$55.000",
+          "image": "assets/products/35.webp"
+        },
+        {
+          "id": 36,
+          "name": "Máscara de Gatúbela",
+          "desc": "Estilo cuero con costuras y orejas.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/36-gallery/principal.webp",
+          "gallery": [
+            "assets/products/36-gallery/principal.webp",
+            "assets/products/36-gallery/collage.webp"
+          ]
+        },
+        {
+          "id": 109,
+          "name": "Máscara Batman",
+          "desc": "Máscara con cordón para sujetarla.",
+          "price": "$100.000",
+          "waPrice": "$100.000",
+          "image": "assets/products/109.webp",
+          "gallery": [
+            "assets/products/109.webp",
+            "assets/products/109-gallery/foto2.webp",
+            "assets/products/109-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 110,
+          "name": "Dúo de Máscaras Batman y Gatúbela",
+          "desc": "Las dos máscaras juntas.",
+          "price": "$150.000",
+          "waPrice": "$150.000",
+          "image": "assets/products/110.webp"
+        },
+        {
+          "id": 37,
+          "name": "Máscara Inferior Oni Demonio",
+          "desc": "Jaw mask estilo oni demonio.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/37.webp"
+        },
+        {
+          "id": 111,
+          "name": "Máscara de Demonio con Cuernos",
+          "desc": "Máscara de demonio con cuernos, en varios colores.",
+          "price": "$85.000",
+          "waPrice": "$85.000",
+          "image": "assets/products/111.webp",
+          "gallery": [
+            "assets/products/111.webp",
+            "assets/products/111-gallery/foto2.webp",
+            "assets/products/111-gallery/foto3.webp"
+          ]
+        },
+        {
+          "id": 112,
+          "name": "Máscara Súcubo con Cuernos",
+          "desc": "Máscara con cuernos y detalles calados.",
+          "price": "$70.000",
+          "waPrice": "$70.000",
+          "image": "assets/products/112.webp",
+          "gallery": [
+            "assets/products/112.webp",
+            "assets/products/112-gallery/foto2.webp"
+          ]
+        }
+      ]
     },
     {
       "id": "halloween",
