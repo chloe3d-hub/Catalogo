@@ -517,8 +517,8 @@
           "id": 104,
           "name": "Letra Decorativa con Nombre, Fecha y Peso de Nacimiento",
           "desc": "Letra con el nombre, la fecha, la hora y el peso de nacimiento, con osito en columpio, globo, nubes y estrellas.",
-          "price": "$80.000",
-          "waPrice": "$80.000",
+          "price": "$75.000",
+          "waPrice": "$75.000",
           "image": "assets/products/104.webp",
           "personalizable": true
         },
