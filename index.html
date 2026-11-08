@@ -2,9 +2,16 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yishu Studio Col — Catálogo</title>
-<meta name="description" content="Yishu Studio Col — artículos impresos en 3D. Decoración, regalos, accesorios y piezas personalizadas. Creamos todo tipo de artículos, pregunta por tu idea.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yishu Studio Col - Catálogo</title>
+<meta name="description" content="Yishu Studio Col - artículos impresos en 3D. Decoración, regalos, accesorios y piezas personalizadas. Creamos todo tipo de artículos, ¡pregunta por tu idea!">
+<meta name="theme-color" content="#0b0b0c">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Yishu Studio Col - Catálogo">
+<meta property="og:description" content="Artículos impresos en 3D: decoración, regalos, accesorios y piezas personalizadas. ¡Pregunta por tu idea!">
+<meta property="og:image" content="https://chloe3d-hub.github.io/Catalogo/assets/logo/logo-mark-red.png">
+<meta property="og:url" content="https://chloe3d-hub.github.io/Catalogo/">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +22,8 @@
 </head>
 <body>
 
-<!-- Cinta vertical de Instagram, estilo revista -->
-<div class="insta-rail" aria-hidden="false">
+<!-- Cinta vertical de Instagram, estilo revista (solo en pantallas anchas) -->
+<div class="insta-rail">
   <div class="insta-rail__inner">
     <a href="https://www.instagram.com/yishustudiocol" target="_blank" rel="noopener">@yishustudiocol · síguenos en Instagram</a>
   </div>
@@ -27,22 +34,19 @@
     <img src="assets/logo/logo-mark-red.png" alt="Yishu Studio Col">
     <div>
       <div class="brand__name">Yishu Studio Col</div>
-      <div class="brand__tag">Creamos todo tipo de artículos. Pregunta por tu idea!</div>
+      <div class="brand__tag">Creamos todo tipo de artículos. ¡Pregunta por tu idea!</div>
     </div>
   </div>
-  <nav class="site-nav" id="site-nav">
+  <nav class="site-nav" id="site-nav" aria-label="Categorías">
     <!-- Se genera dinámicamente con js/app.js: una entrada por cada categoría -->
   </nav>
 </header>
 
-<div class="custom-banner wrap">
-  <span class="custom-banner__icon">✦</span>
-  <p><strong>Aceptamos pedidos personalizados</strong> y cualquier idea que se te ocurra — escríbenos y lo hacemos realidad. Además, algunos colores se pueden personalizar sin cambio de precio.</p>
-</div>
-
-<div class="custom-banner custom-banner--ship wrap">
-  <span class="custom-banner__icon">🚚</span>
-  <p><strong>Envío gratis</strong> en compras superiores a $200.000.</p>
+<div class="notice wrap">
+  <div class="info-strip">
+    <p><span class="info-strip__icon">✦</span><span><strong>Hacemos pedidos personalizados.</strong> Cuéntanos tu idea y la hacemos realidad. Algunos colores se pueden cambiar sin costo extra.</span></p>
+    <p><span class="info-strip__icon">🚚</span><span><strong>Envío gratis</strong> en compras superiores a $200.000.</span></p>
+  </div>
 </div>
 
 <!-- ============================= NAVIDAD ============================= -->
@@ -60,10 +64,7 @@
         <p class="season__kicker">✦ Edición navideña ✦</p>
         <h2 class="season__title">🎄 Navidad</h2>
       </div>
-      <div class="season__notes">
-        <p class="season__note"><strong>¿Quieres algo diferente para esta Navidad?</strong> Escríbenos y lo diseñamos juntos.</p>
-        <p class="season__note season__note--color">🎨 Algunos colores se pueden personalizar sin cambio de precio.</p>
-      </div>
+      <p class="season__note"><strong>¿Quieres algo diferente para esta Navidad?</strong> Escríbenos y lo diseñamos juntos.</p>
     </div>
     <div class="grid" id="grid-navidad"></div>
   </div>
@@ -72,8 +73,8 @@
 <!-- ============================ CATÁLOGO ============================= -->
 <main id="catalogo" class="catalog">
   <div class="catalog__intro wrap">
-    <h2>Explora la Colección</h2>
-    <p>Recorre todas nuestras categorías. Si tienes una idea propia, la hacemos posible.</p>
+    <h2>Explora el catálogo</h2>
+    <p>Toca un producto para ver más fotos y detalles, y pídelo por WhatsApp.</p>
   </div>
 
   <div class="wrap" id="catalog-sections">
@@ -91,21 +92,23 @@
       </summary>
       <div class="season__head">
         <p class="season__note"><strong>¿Se te ocurre otra idea de temporada?</strong> Escríbenos, la creamos para ti.</p>
-        <p class="season__note season__note--color">🎨 Algunos colores se pueden personalizar sin cambio de precio.</p>
       </div>
       <div class="grid" id="grid-halloween"></div>
     </details>
   </div>
 </section>
 
-<div class="custom-banner wrap">
-  <span class="custom-banner__icon">✦</span>
-  <p><strong>¿No encontraste lo que buscabas?</strong> Aceptamos pedidos personalizados y todo tipo de ideas — cuéntanos qué imaginas y lo creamos.</p>
+<div class="notice wrap">
+  <div class="cta-banner">
+    <p><strong>¿No encontraste lo que buscabas?</strong> Aceptamos pedidos personalizados y todo tipo de ideas. Cuéntanos qué imaginas y lo creamos.</p>
+    <a class="btn-wa btn-wa--lg" data-wa="¡Hola! Quisiera hacer un pedido personalizado." target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+  </div>
 </div>
 
 <footer class="site-footer wrap">
   <img src="assets/logo/logo-mark-red.png" alt="Yishu Studio Col">
-  <p>Yishu Studio Col — Creamos todo tipo de artículos. Pregunta por tu idea!</p>
+  <p class="site-footer__name">Yishu Studio Col</p>
+  <p>Creamos todo tipo de artículos. ¡Pregunta por tu idea!</p>
   <p>Envío gratis en compras superiores a $200.000.</p>
   <div class="handle">
     <a href="https://www.instagram.com/yishustudiocol" target="_blank" rel="noopener">@yishustudiocol</a>

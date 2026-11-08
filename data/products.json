@@ -46,7 +46,7 @@
         {
           "id": 125,
           "name": "Pesebre con Ángel",
-          "desc": "El nacimiento entre las alas de un ángel. Con luz sale a $50.000 y sin luz a $40.000.",
+          "desc": "El nacimiento entre las alas de un ángel. Disponible con luz o sin luz.",
           "price": "$50.000 con luz · $40.000 sin luz",
           "waPrice": "$50.000 con luz / $40.000 sin luz",
           "image": "assets/products/125.webp",
@@ -286,7 +286,7 @@
         {
           "id": 117,
           "name": "Adorno Navideño con Foto y Nombre",
-          "desc": "Adorno para el árbol con la foto y el nombre que quieras. Con foto $12.000, sin foto $10.000. Desde 5 unidades hay descuento.",
+          "desc": "Adorno para el árbol con la foto y el nombre que quieras. Desde 5 unidades hay descuento.",
           "price": "$12.000 con foto · $10.000 sin foto",
           "waPrice": "$12.000 con foto / $10.000 sin foto",
           "image": "assets/products/117.webp",
@@ -321,8 +321,8 @@
           "id": 10,
           "name": "Casitas de Piñas Colgantes para Árbol",
           "desc": "Disponibles sin luz o con luz. Con luz sale a $23.000.",
-          "price": "$18.000 - $23.000",
-          "waPrice": "$18.000 - $23.000",
+          "price": "$18.000 – $23.000",
+          "waPrice": "$18.000 – $23.000",
           "image": "assets/products/10.webp"
         },
         {
@@ -408,7 +408,7 @@
         {
           "id": 20,
           "name": "Sujetalibros Mano de Esqueleto",
-          "desc": "Sujetalibros decorativo. Se vende por unidad; la pareja sale a $200.000.",
+          "desc": "Sujetalibros decorativo. Se vende por unidad o en pareja.",
           "price": "$120.000 c/u · las 2 manos $200.000",
           "waPrice": "$120.000 c/u (las 2 manos $200.000)",
           "image": "assets/products/20.webp"
@@ -691,8 +691,8 @@
           "id": 40,
           "name": "Stand de Negocio Personalizado",
           "desc": "Stand con tus QR, redes y logo, hecho a la medida de tu negocio. El precio depende del diseño: desde $32.000 (modelo Love on Tap), $52.000 (minimalista con logo), $60.000 (arco con logo y 3 QR) y $75.000 (modelos Sweet Spot y Casa Bohème).",
-          "price": "$32.000 - $75.000 según diseño",
-          "waPrice": "$32.000 - $75.000 según diseño",
+          "price": "$32.000 – $75.000 según diseño",
+          "waPrice": "$32.000 – $75.000 según diseño",
           "quote": true,
           "image": "assets/products/40.webp",
           "gallery": [
@@ -716,7 +716,7 @@
           "id": 93,
           "name": "Tarjetero de Escritorio Personalizado",
           "desc": "Diseño temático según tu marca o servicio: veterinaria, salón de belleza, consultorio, oficina y más.",
-          "price": "$20.000 - $30.000 según diseño",
+          "price": "$20.000 – $30.000 según diseño",
           "waPrice": null,
           "quote": true,
           "image": "assets/products/93.webp",
@@ -806,7 +806,7 @@
         {
           "id": 60,
           "name": "Aretes Perrito Globo",
-          "desc": "Contorno negro.",
+          "desc": "Perrito de globo en contorno negro.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/60.webp"
@@ -821,8 +821,8 @@
         },
         {
           "id": 62,
-          "name": "Aretes Máscara Oni Demonio",
-          "desc": "Negro.",
+          "name": "Aretes Máscara Demonio Oni",
+          "desc": "Máscara de demonio oni, en negro.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/62.webp"
@@ -830,7 +830,7 @@
         {
           "id": 64,
           "name": "Aretes Corona de Flores con Lazo",
-          "desc": "Blanco y rosado.",
+          "desc": "Corona de flores con lazo, en blanco y rosado.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/64.webp"
@@ -838,7 +838,7 @@
         {
           "id": 65,
           "name": "Aretes Hombre de Jengibre",
-          "desc": "Diseño navideño.",
+          "desc": "Hombrecito de jengibre, diseño navideño.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/65.webp"
@@ -846,7 +846,7 @@
         {
           "id": 67,
           "name": "Aretes Halloween Fantasma y Murciélago con Lazo",
-          "desc": "",
+          "desc": "Fantasma y murciélago con lazo, diseño de Halloween.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/67.webp"
@@ -854,7 +854,7 @@
         {
           "id": 68,
           "name": "Aretes Huevito con Patitas",
-          "desc": "Diseño de pollito.",
+          "desc": "Huevito con patitas, diseño de pollito.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/68.webp"
@@ -862,7 +862,7 @@
         {
           "id": 69,
           "name": "Aretes Pez Koi",
-          "desc": "Contorno negro.",
+          "desc": "Pez koi en contorno negro.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/69.webp"
@@ -870,7 +870,7 @@
         {
           "id": 70,
           "name": "Aretes Corazón Tejido Rojo",
-          "desc": "Estilo crochet.",
+          "desc": "Corazón rojo, estilo crochet.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/70.webp"
@@ -886,7 +886,7 @@
         {
           "id": 84,
           "name": "Aretes Avión de Papel",
-          "desc": "Blanco.",
+          "desc": "Avión de papel en blanco.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/84.webp"
@@ -894,7 +894,7 @@
         {
           "id": 85,
           "name": "Aretes Cámara Instantánea",
-          "desc": "Rosado, con charm de foto colgando.",
+          "desc": "Cámara instantánea en rosado, con charm de foto colgando.",
           "price": "$10.000",
           "waPrice": "$10.000",
           "image": "assets/products/85.webp"
@@ -902,7 +902,7 @@
         {
           "id": 86,
           "name": "Aretes Cassette",
-          "desc": "Rosado.",
+          "desc": "Cassette en rosado.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/86.webp"
@@ -910,7 +910,7 @@
         {
           "id": 88,
           "name": "Aretes Gato Saltando",
-          "desc": "Silueta negra.",
+          "desc": "Gato saltando en silueta negra.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/88.webp"
@@ -918,13 +918,13 @@
         {
           "id": 89,
           "name": "Aretes Perrito de Línea Continua",
-          "desc": "Diseño de un solo trazo, negro.",
+          "desc": "Perrito de un solo trazo, en negro.",
           "price": "$8.000",
           "waPrice": "$8.000",
           "image": "assets/products/89.webp"
         }
       ],
-      "badge": "✦ Llevando varios aretes hay descuento — pregúntanos"
+      "badge": "✦ Llevando varios aretes hay descuento: pregúntanos"
     },
     {
       "id": "lamparas",
@@ -983,8 +983,8 @@
           "id": 49,
           "name": "Llavero con Nombre Personalizado",
           "desc": "Varios estilos: barra, pixel y letra cursiva. El precio depende del tamaño.",
-          "price": "$15.000 - $20.000 según tamaño",
-          "waPrice": "$15.000 - $20.000 según tamaño",
+          "price": "$15.000 – $20.000 según tamaño",
+          "waPrice": "$15.000 – $20.000 según tamaño",
           "personalizable": true,
           "image": "assets/products/49-gallery/maleah.webp",
           "gallery": [
@@ -1106,8 +1106,8 @@
         },
         {
           "id": 37,
-          "name": "Máscara Inferior Oni Demonio",
-          "desc": "Jaw mask estilo oni demonio.",
+          "name": "Máscara Inferior Demonio Oni",
+          "desc": "Jaw mask estilo demonio oni.",
           "price": "$60.000",
           "waPrice": "$60.000",
           "image": "assets/products/37.webp"
@@ -1268,7 +1268,7 @@
           "name": "Set de Guarda-Hierbas Texturizados",
           "desc": "3 tamaños, colores iridiscentes.",
           "price": "$10.000 / $15.000 / $20.000",
-          "waPrice": "$10.000 - $20.000 según tamaño",
+          "waPrice": "$10.000 – $20.000 según tamaño",
           "image": "assets/products/58.webp"
         },
         {
