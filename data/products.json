@@ -504,8 +504,8 @@
           "id": 103,
           "name": "Letra Decorativa Infantil con Nombre",
           "desc": "Letra con tu nombre y decoración infantil: globos aerostáticos, nubes, hojitas y un animalito. Personalizable con la letra, el nombre y los colores que quieras.",
-          "price": "$70.000",
-          "waPrice": "$70.000",
+          "price": "$45.000",
+          "waPrice": "$45.000",
           "image": "assets/products/103.webp",
           "gallery": [
             "assets/products/103.webp",
@@ -1128,7 +1128,7 @@
         {
           "id": 112,
           "name": "Máscara Súcubo con Cuernos",
-          "desc": "Máscara con cuernos y detalles calados.",
+          "desc": "Máscara con cuernos.",
           "price": "$70.000",
           "waPrice": "$70.000",
           "image": "assets/products/112.webp",
