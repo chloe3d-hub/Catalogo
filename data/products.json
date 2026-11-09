@@ -320,18 +320,22 @@
         {
           "id": 10,
           "name": "Casitas de Piñas Colgantes para Árbol",
-          "desc": "Disponibles sin luz o con luz. Con luz sale a $23.000.",
-          "price": "$18.000 – $23.000",
-          "waPrice": "$18.000 – $23.000",
+          "desc": "Disponibles sin luz o con luz.",
+          "price": "$25.000 sin luz · $30.000 con luz",
+          "waPrice": "$25.000 sin luz / $30.000 con luz",
           "image": "assets/products/10.webp"
         },
         {
           "id": 9,
           "name": "Esquina Navideña para Puerta o Interruptor",
-          "desc": "Árbol, bastón de dulce, regalos y copos de nieve.",
-          "price": "$10.000",
-          "waPrice": "$10.000",
-          "image": "assets/products/9.webp"
+          "desc": "Esquina decorativa con bastones de dulce, hojas de acebo y bayas rojas.",
+          "price": "$15.000",
+          "waPrice": "$15.000",
+          "image": "assets/products/9.webp",
+          "gallery": [
+            "assets/products/9.webp",
+            "assets/products/9-gallery/foto2.webp"
+          ]
         },
         {
           "id": 11,
