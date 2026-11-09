@@ -335,15 +335,19 @@ const YISHU_DATA = {
         },
         {
           "id": 11,
-          "name": "Mano del Grinch",
-          "desc": "Doble uso: portabotellas de vino o decoración de pared / sostén para esferas.",
+          "name": "Portabotellas de Vino Mano del Grinch",
+          "desc": "Mano del Grinch que sostiene una botella de vino, con base en forma de manga navideña.",
           "price": "$50.000",
           "waPrice": "$50.000",
-          "image": "assets/products/11.webp",
-          "gallery": [
-            "assets/products/11.webp",
-            "assets/products/11-gallery/sostiene-esfera.webp"
-          ]
+          "image": "assets/products/11.webp"
+        },
+        {
+          "id": 145,
+          "name": "Mano del Grinch de Pared para Esferas Navideñas",
+          "desc": "Mano del Grinch que sale de una manga navideña y sostiene una esfera. Decoración de pared.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "image": "assets/products/145.webp"
         }
       ]
     },
@@ -493,25 +497,17 @@ const YISHU_DATA = {
         },
         {
           "id": 75,
-          "name": "Letra Decorativa con Nombre y Decoración Temática",
-          "desc": "Incluye decoración temática alrededor de la letra: nubes, globos y hojas. Ideal para cuarto de bebé o niños.",
+          "name": "Letra Decorativa Infantil con Nombre",
+          "desc": "Letra con tu nombre y decoración infantil: globos aerostáticos, nubes, hojitas y un animalito. Ideal para cuarto de bebé o niños. Personalizable con la letra, el nombre y los colores que quieras.",
           "price": "$45.000",
           "waPrice": "$45.000",
           "personalizable": true,
-          "image": "assets/products/75.webp"
-        },
-        {
-          "id": 103,
-          "name": "Letra Decorativa Infantil con Nombre",
-          "desc": "Letra con tu nombre y decoración infantil: globos aerostáticos, nubes, hojitas y un animalito. Personalizable con la letra, el nombre y los colores que quieras.",
-          "price": "$45.000",
-          "waPrice": "$45.000",
-          "image": "assets/products/103.webp",
+          "image": "assets/products/75.webp",
           "gallery": [
-            "assets/products/103.webp",
-            "assets/products/103-gallery/hector.webp"
-          ],
-          "personalizable": true
+            "assets/products/75.webp",
+            "assets/products/75-gallery/foto2.webp",
+            "assets/products/75-gallery/foto3.webp"
+          ]
         },
         {
           "id": 104,
@@ -663,6 +659,27 @@ const YISHU_DATA = {
             "assets/products/46.webp",
             "assets/products/46-gallery/foto2.webp"
           ]
+        },
+        {
+          "id": 51,
+          "name": "Caja Organizadora con Texto",
+          "desc": "Tipo maletín, con el texto personalizado que quieras. Mira la foto con las medidas.",
+          "price": "$50.000",
+          "waPrice": "$50.000",
+          "personalizable": true,
+          "image": "assets/products/51.webp",
+          "gallery": [
+            "assets/products/51.webp",
+            "assets/products/51-gallery/medidas.webp"
+          ]
+        },
+        {
+          "id": 50,
+          "name": "Portalápices Espiral Geométrico",
+          "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños. Mide 7 × 7 × 15 cm.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "image": "assets/products/50.webp"
         }
       ]
     },
@@ -959,7 +976,7 @@ const YISHU_DATA = {
     },
     {
       "id": "llaveros",
-      "label": "Llaveros y Útiles",
+      "label": "Llaveros",
       "products": [
         {
           "id": 47,
@@ -1025,27 +1042,6 @@ const YISHU_DATA = {
           "gallery": [
             "assets/products/115.webp",
             "assets/products/115-gallery/foto2.webp"
-          ]
-        },
-        {
-          "id": 50,
-          "name": "Portalápices Espiral Geométrico",
-          "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños. Mide 7 × 7 × 15 cm.",
-          "price": "$40.000",
-          "waPrice": "$40.000",
-          "image": "assets/products/50.webp"
-        },
-        {
-          "id": 51,
-          "name": "Caja Organizadora con Texto",
-          "desc": "Tipo maletín, con el texto personalizado que quieras. Mira la foto con las medidas.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
-          "personalizable": true,
-          "image": "assets/products/51.webp",
-          "gallery": [
-            "assets/products/51.webp",
-            "assets/products/51-gallery/medidas.webp"
           ]
         }
       ],
