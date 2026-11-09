@@ -112,6 +112,19 @@
           "image": "assets/products/128.webp"
         },
         {
+          "id": 146,
+          "name": "Santa Claus con Saco de Regalos",
+          "desc": "Santa Claus con barba en ondas, traje de diseño calado y saco al hombro. Mide 10 cm.",
+          "price": "$60.000",
+          "waPrice": "$60.000",
+          "image": "assets/products/146.webp",
+          "gallery": [
+            "assets/products/146.webp",
+            "assets/products/146-gallery/foto2.webp",
+            "assets/products/146-gallery/foto3.webp"
+          ]
+        },
+        {
           "id": 127,
           "name": "Patricio para la Punta del Árbol",
           "desc": "Patricio con gorro de Santa para coronar el árbol. Mide 12 × 13 × 18 cm.",
