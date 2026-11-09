@@ -337,16 +337,16 @@
           "id": 11,
           "name": "Portabotellas de Vino Mano del Grinch",
           "desc": "Mano del Grinch que sostiene una botella de vino, con base en forma de manga navideña.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
+          "price": "$60.000",
+          "waPrice": "$60.000",
           "image": "assets/products/11.webp"
         },
         {
           "id": 145,
           "name": "Mano del Grinch de Pared para Esferas Navideñas",
           "desc": "Mano del Grinch que sale de una manga navideña y sostiene una esfera. Decoración de pared.",
-          "price": "$50.000",
-          "waPrice": "$50.000",
+          "price": "$60.000",
+          "waPrice": "$60.000",
           "image": "assets/products/145.webp"
         }
       ]
@@ -497,8 +497,8 @@
         },
         {
           "id": 75,
-          "name": "Letra Decorativa Infantil con Nombre",
-          "desc": "Letra con tu nombre y decoración infantil: globos aerostáticos, nubes, hojitas y un animalito. Ideal para cuarto de bebé o niños. Personalizable con la letra, el nombre y los colores que quieras.",
+          "name": "Letra Decorativa con Nombre y Decoración Temática",
+          "desc": "Letra con tu nombre y decoración temática alrededor: globos aerostáticos, nubes, hojitas y un animalito. Personalizable con la letra, el nombre y los colores que quieras.",
           "price": "$45.000",
           "waPrice": "$45.000",
           "personalizable": true,
@@ -522,8 +522,8 @@
           "id": 90,
           "name": "Portabotellas de Vino Salchicha Low-Poly",
           "desc": "Perrito salchicha estilo low-poly (facetado), sostiene la botella sobre el lomo.",
-          "price": "$180.000",
-          "waPrice": "$180.000",
+          "price": "$150.000",
+          "waPrice": "$150.000",
           "image": "assets/products/90.webp",
           "gallery": [
             "assets/products/90.webp",
