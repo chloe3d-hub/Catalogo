@@ -73,3 +73,16 @@ El archivo `PanfletaStencil-ExtraBold.ttf` que Lorena subió tiene un defecto re
 ## Nota técnica: por qué esta sesión de chat no pudo hacer push directo
 
 Esta conversación corre en un contenedor aislado en la nube que solo puede salir a internet a través de una lista de repositorios pre-autorizados para la sesión; un repo nuevo no entra ahí y no hay forma de agregarlo desde este lado. Claude Code, corriendo en el computador de Lorena, usa la conexión y las credenciales de git de su propia máquina directamente — sin esa restricción — por eso ahí sí puede conectarse al repo y hacer el push.
+
+## Precio numérico para el tracker (Yi Shu Manager)
+
+El tracker de pedidos (`chloe3d-hub/purchasetracker`) lee `data/products.json` para ofrecer los productos al registrar un pedido y poner el precio solo. El texto `price` es lo que ve el cliente; los campos numéricos son solo para el tracker y la página los ignora:
+
+- `priceValue`: precio de una unidad, en pesos, como número (`55000`). Lo llevan los productos con un solo precio.
+- `priceOptions`: lista `[{ "label": "Con luz", "value": 50000 }, ...]` para los productos con varios precios (con luz / sin luz, de pared / con base). El tracker pide elegir una.
+- Sin ninguno de los dos (precios "Desde", rangos y tamaños): el tracker deja el precio vacío y muestra el texto del catálogo.
+
+Al agregar un producto nuevo, ponerle `priceValue` o `priceOptions`. `data/products.js` y `data/products.json` tienen que quedar idénticos: se edita products.js y se ejecuta `node tools/sincronizar-json.js`.
+
+Los productos 147 (Maceta Monstera con 6 Portavasos), 148 (Planta Piraña Porta Juegos de Switch) y 149 (Kame House Portallaves con 2 Llaveros) se agregaron con fotos propias de Lorena. Las imágenes de referencia de terceros se dejaron fuera por traer marcas de agua.
+

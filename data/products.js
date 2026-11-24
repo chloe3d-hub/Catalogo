@@ -13,6 +13,7 @@ const YISHU_DATA = {
           "desc": "Reno sentado de nariz roja, con collar y campana. Mide 70 cm de alto.",
           "price": "$450.000",
           "waPrice": "$450.000",
+          "priceValue": 450000,
           "image": "assets/products/143.webp",
           "gallery": [
             "assets/products/143.webp",
@@ -25,6 +26,7 @@ const YISHU_DATA = {
           "desc": "Muñeco de nieve con sombrero de copa, bufanda y brazos de ramas. Mide aprox. 50 cm de alto.",
           "price": "$230.000",
           "waPrice": "$230.000",
+          "priceValue": 230000,
           "image": "assets/products/142.webp",
           "gallery": [
             "assets/products/142.webp",
@@ -37,6 +39,7 @@ const YISHU_DATA = {
           "desc": "Tren navideño de galleta de jengibre: locomotora, tres vagones, rieles y un hombrecito de jengibre. Mide 40 cm.",
           "price": "$160.000",
           "waPrice": "$160.000",
+          "priceValue": 160000,
           "image": "assets/products/144.webp",
           "gallery": [
             "assets/products/144.webp",
@@ -49,6 +52,16 @@ const YISHU_DATA = {
           "desc": "El nacimiento entre las alas de un ángel. Disponible con luz o sin luz.",
           "price": "$50.000 con luz · $40.000 sin luz",
           "waPrice": "$50.000 con luz / $40.000 sin luz",
+          "priceOptions": [
+            {
+              "label": "Con luz",
+              "value": 50000
+            },
+            {
+              "label": "Sin luz",
+              "value": 40000
+            }
+          ],
           "image": "assets/products/125.webp",
           "gallery": [
             "assets/products/125.webp",
@@ -61,6 +74,16 @@ const YISHU_DATA = {
           "desc": "Ángel con cuerpo en malla de rombos y aureola dorada. Mide 14,5 cm y se puede hacer en otros tamaños: pregunta. Al por mayor o por varias unidades hay descuento.",
           "price": "$30.000 con luz · $25.000 sin luz",
           "waPrice": "$30.000 con luz / $25.000 sin luz",
+          "priceOptions": [
+            {
+              "label": "Con luz",
+              "value": 30000
+            },
+            {
+              "label": "Sin luz",
+              "value": 25000
+            }
+          ],
           "image": "assets/products/139.webp",
           "gallery": [
             "assets/products/139.webp",
@@ -73,6 +96,16 @@ const YISHU_DATA = {
           "desc": "Ángel con alas y falda de detalles en espiral, sosteniendo una estrella. Mide 11 cm.",
           "price": "$45.000 con luz · $40.000 sin luz",
           "waPrice": "$45.000 con luz / $40.000 sin luz",
+          "priceOptions": [
+            {
+              "label": "Con luz",
+              "value": 45000
+            },
+            {
+              "label": "Sin luz",
+              "value": 40000
+            }
+          ],
           "image": "assets/products/140.webp",
           "gallery": [
             "assets/products/140.webp",
@@ -85,6 +118,7 @@ const YISHU_DATA = {
           "desc": "Ángel con textura que imita el tejido. Mide 10 cm y el tamaño se puede escalar: pregunta por otros tamaños.",
           "price": "$20.000",
           "waPrice": "$20.000",
+          "priceValue": 20000,
           "image": "assets/products/141.webp"
         },
         {
@@ -93,6 +127,7 @@ const YISHU_DATA = {
           "desc": "Colección de 4 gnomos pintados a mano. Cada uno mide 9,5 cm de alto.",
           "price": "$150.000 la colección",
           "waPrice": "$150.000 (colección de 4)",
+          "priceValue": 150000,
           "image": "assets/products/130.webp"
         },
         {
@@ -101,6 +136,7 @@ const YISHU_DATA = {
           "desc": "Santa sentado en un columpio colgado de una rama nevada. Tiene imanes. Mide 16 × 5 cm.",
           "price": "$140.000",
           "waPrice": "$140.000",
+          "priceValue": 140000,
           "image": "assets/products/129.webp"
         },
         {
@@ -109,6 +145,7 @@ const YISHU_DATA = {
           "desc": "Santa con gafas de sol y botas. Mide 10 cm de alto.",
           "price": "$80.000",
           "waPrice": "$80.000",
+          "priceValue": 80000,
           "image": "assets/products/128.webp"
         },
         {
@@ -117,6 +154,7 @@ const YISHU_DATA = {
           "desc": "Santa Claus con barba en ondas, traje de diseño calado y saco al hombro. Mide 10 cm.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/146.webp",
           "gallery": [
             "assets/products/146.webp",
@@ -130,6 +168,7 @@ const YISHU_DATA = {
           "desc": "Patricio con gorro de Santa para coronar el árbol. Mide 12 × 13 × 18 cm.",
           "price": "$100.000",
           "waPrice": "$100.000",
+          "priceValue": 100000,
           "image": "assets/products/127.webp",
           "gallery": [
             "assets/products/127.webp",
@@ -150,6 +189,7 @@ const YISHU_DATA = {
           "desc": "Figura decorativa de Papá Noel sentado, con textura tejida.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/100.webp",
           "gallery": [
             "assets/products/100.webp",
@@ -163,6 +203,7 @@ const YISHU_DATA = {
           "desc": "Figura decorativa de reno con acanalado fino, en varios colores. Precio por unidad.",
           "price": "$35.000 c/u",
           "waPrice": "$35.000 c/u",
+          "priceValue": 35000,
           "image": "assets/products/101.webp",
           "gallery": [
             "assets/products/101.webp",
@@ -175,6 +216,7 @@ const YISHU_DATA = {
           "desc": "Figura de Santa para poner sobre la pantalla del computador.",
           "price": "$8.000 c/u",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/132.webp"
         },
         {
@@ -183,6 +225,7 @@ const YISHU_DATA = {
           "desc": "Figura para poner sobre la pantalla del computador.",
           "price": "$8.000 c/u",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/131.webp"
         },
         {
@@ -191,6 +234,7 @@ const YISHU_DATA = {
           "desc": "Figura para poner sobre la pantalla del computador.",
           "price": "$8.000 c/u",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/138.webp"
         },
         {
@@ -199,6 +243,7 @@ const YISHU_DATA = {
           "desc": "Santa en miniatura con cadena para colgar.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/133.webp"
         },
         {
@@ -207,6 +252,7 @@ const YISHU_DATA = {
           "desc": "Se enrosca en las botellas de gaseosa y se presiona en las de vino.",
           "price": "$12.000",
           "waPrice": "$12.000",
+          "priceValue": 12000,
           "image": "assets/products/134.webp"
         },
         {
@@ -215,6 +261,7 @@ const YISHU_DATA = {
           "desc": "Posavasos con copo de nieve y base decorada con muñeco de nieve y arbolito.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/135.webp"
         },
         {
@@ -223,6 +270,7 @@ const YISHU_DATA = {
           "desc": "Esferas en varios diseños texturizados para colgar en el árbol. Se venden por unidad.",
           "price": "$20.000 c/u",
           "waPrice": "$20.000",
+          "priceValue": 20000,
           "image": "assets/products/99.webp"
         },
         {
@@ -231,6 +279,7 @@ const YISHU_DATA = {
           "desc": "Osito con tu nombre para colgar en el árbol. Desde 5 unidades hay descuento.",
           "price": "$13.000 c/u",
           "waPrice": "$13.000 c/u",
+          "priceValue": 13000,
           "image": "assets/products/123.webp",
           "personalizable": true
         },
@@ -240,6 +289,7 @@ const YISHU_DATA = {
           "desc": "Bola con tu nombre y copos de nieve.",
           "price": "$10.000 c/u",
           "waPrice": "$10.000 c/u",
+          "priceValue": 10000,
           "image": "assets/products/121.webp",
           "personalizable": true
         },
@@ -249,6 +299,7 @@ const YISHU_DATA = {
           "desc": "Bola con tu nombre y motivos navideños.",
           "price": "$10.000 c/u",
           "waPrice": "$10.000 c/u",
+          "priceValue": 10000,
           "image": "assets/products/122.webp",
           "personalizable": true
         },
@@ -258,6 +309,7 @@ const YISHU_DATA = {
           "desc": "Árbol y copos de nieve, colores rojo/verde.",
           "price": "$10.000 c/u",
           "waPrice": "$10.000 c/u",
+          "priceValue": 10000,
           "personalizable": true,
           "image": "assets/products/12.webp",
           "gallery": [
@@ -271,6 +323,7 @@ const YISHU_DATA = {
           "desc": "Adorno de gatico con copos de nieve, bigotes y tu nombre, en rojo o café.",
           "price": "$10.000 c/u",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/120.webp",
           "personalizable": true,
           "gallery": [
@@ -284,6 +337,7 @@ const YISHU_DATA = {
           "desc": "Adorno de patica con copos de nieve y tu nombre.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/118.webp",
           "personalizable": true
         },
@@ -293,6 +347,7 @@ const YISHU_DATA = {
           "desc": "Adorno de hueso con moño y tu nombre.",
           "price": "$4.000 c/u",
           "waPrice": "$4.000",
+          "priceValue": 4000,
           "image": "assets/products/119.webp",
           "personalizable": true
         },
@@ -302,6 +357,16 @@ const YISHU_DATA = {
           "desc": "Adorno para el árbol con la foto y el nombre que quieras. Desde 5 unidades hay descuento.",
           "price": "$12.000 con foto · $10.000 sin foto",
           "waPrice": "$12.000 con foto / $10.000 sin foto",
+          "priceOptions": [
+            {
+              "label": "Con foto",
+              "value": 12000
+            },
+            {
+              "label": "Sin foto",
+              "value": 10000
+            }
+          ],
           "image": "assets/products/117.webp",
           "personalizable": true
         },
@@ -311,6 +376,7 @@ const YISHU_DATA = {
           "desc": "Adornos de copos de nieve en distintos diseños. Se venden por unidad.",
           "price": "$3.000 c/u",
           "waPrice": "$3.000",
+          "priceValue": 3000,
           "image": "assets/products/98.webp"
         },
         {
@@ -319,6 +385,7 @@ const YISHU_DATA = {
           "desc": "Bolsa de regalos, muñeco de jengibre, oso y estrella.",
           "price": "$10.000 c/u",
           "waPrice": "$10.000 c/u",
+          "priceValue": 10000,
           "personalizable": true,
           "image": "assets/products/14.webp"
         },
@@ -328,6 +395,7 @@ const YISHU_DATA = {
           "desc": "Gorritos de Santa en rojo y blanco.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/124.webp"
         },
         {
@@ -336,6 +404,16 @@ const YISHU_DATA = {
           "desc": "Disponibles sin luz o con luz.",
           "price": "$25.000 sin luz · $30.000 con luz",
           "waPrice": "$25.000 sin luz / $30.000 con luz",
+          "priceOptions": [
+            {
+              "label": "Sin luz",
+              "value": 25000
+            },
+            {
+              "label": "Con luz",
+              "value": 30000
+            }
+          ],
           "image": "assets/products/10.webp"
         },
         {
@@ -344,6 +422,7 @@ const YISHU_DATA = {
           "desc": "Esquina decorativa con bastones de dulce, hojas de acebo y bayas rojas.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/9.webp",
           "gallery": [
             "assets/products/9.webp",
@@ -356,6 +435,7 @@ const YISHU_DATA = {
           "desc": "Mano del Grinch que sostiene una botella de vino, con base en forma de manga navideña.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/11.webp"
         },
         {
@@ -364,6 +444,7 @@ const YISHU_DATA = {
           "desc": "Mano del Grinch que sale de una manga navideña y sostiene una esfera. Decoración de pared.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/145.webp"
         }
       ]
@@ -378,6 +459,7 @@ const YISHU_DATA = {
           "desc": "Cuadro con fondo y varias capas superpuestas que le dan profundidad: sol rojo, ola y sombras. Marco negro.",
           "price": "$80.000",
           "waPrice": "$80.000",
+          "priceValue": 80000,
           "image": "assets/products/15.webp"
         },
         {
@@ -386,6 +468,7 @@ const YISHU_DATA = {
           "desc": "Rama con hojas sobre sol y arco minimalista.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/16.webp"
         },
         {
@@ -394,6 +477,7 @@ const YISHU_DATA = {
           "desc": "Silueta de árbol en tres piezas.",
           "price": "$35.000",
           "waPrice": "$35.000",
+          "priceValue": 35000,
           "image": "assets/products/17.webp"
         },
         {
@@ -402,6 +486,7 @@ const YISHU_DATA = {
           "desc": "Dos piezas triangulares.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/18.webp"
         },
         {
@@ -410,6 +495,7 @@ const YISHU_DATA = {
           "desc": "Torii, monte Fuji con sol y árbol, tres piezas.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/19.webp"
         },
         {
@@ -418,6 +504,7 @@ const YISHU_DATA = {
           "desc": "Río entre montañas y árboles rojos, con mucho detalle. Mide 20 cm de alto × 21,5 cm de ancho.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/94.webp"
         }
       ]
@@ -432,6 +519,16 @@ const YISHU_DATA = {
           "desc": "Sujetalibros decorativo. Se vende por unidad o en pareja.",
           "price": "$120.000 c/u · las 2 manos $200.000",
           "waPrice": "$120.000 c/u (las 2 manos $200.000)",
+          "priceOptions": [
+            {
+              "label": "Una mano",
+              "value": 120000
+            },
+            {
+              "label": "Las 2 manos",
+              "value": 200000
+            }
+          ],
           "image": "assets/products/20.webp"
         },
         {
@@ -440,6 +537,16 @@ const YISHU_DATA = {
           "desc": "Paisaje con pagoda, luna y bonsái. Se puede poner en la pared o sobre una base. Mide 19,5 cm de alto × 23,5 cm de ancho. Con o sin brillitos.",
           "price": "$20.000 de pared · $25.000 con base",
           "waPrice": "$20.000 de pared / $25.000 con base",
+          "priceOptions": [
+            {
+              "label": "De pared",
+              "value": 20000
+            },
+            {
+              "label": "Con base",
+              "value": 25000
+            }
+          ],
           "image": "assets/products/21.webp"
         },
         {
@@ -448,6 +555,7 @@ const YISHU_DATA = {
           "desc": "Incluye bandeja superior y cajón organizador.",
           "price": "$80.000",
           "waPrice": "$80.000",
+          "priceValue": 80000,
           "image": "assets/products/22.webp",
           "gallery": [
             "assets/products/22.webp",
@@ -461,6 +569,7 @@ const YISHU_DATA = {
           "desc": "Pieza decorativa con base. Mide 20,5 cm de alto × 18 cm de ancho.",
           "price": "$100.000",
           "waPrice": "$100.000",
+          "priceValue": 100000,
           "image": "assets/products/23.webp"
         },
         {
@@ -477,6 +586,7 @@ const YISHU_DATA = {
           "desc": "Con espacio para maceta. Mide 18 × 22 cm.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/25.webp"
         },
         {
@@ -485,6 +595,7 @@ const YISHU_DATA = {
           "desc": "Le suma un aire natural a cualquier pared vacía.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/26.webp"
         },
         {
@@ -493,6 +604,7 @@ const YISHU_DATA = {
           "desc": "El gatico y sus 3 repisas redondas se instalan en la pared a distintas alturas, dando el efecto de que camina flotando en el aire. Mide 20 cm de largo × 16 cm de alto × 10 cm de ancho.",
           "price": "$160.000",
           "waPrice": "$160.000",
+          "priceValue": 160000,
           "image": "assets/products/72.webp"
         },
         {
@@ -501,6 +613,7 @@ const YISHU_DATA = {
           "desc": "Mono, jirafa, elefante y león en silueta, para pared de cuarto de bebé. Colores pastel a elección.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/73.webp"
         },
         {
@@ -509,6 +622,7 @@ const YISHU_DATA = {
           "desc": "Perfecta para regalar o decorar la casita o las habitaciones.",
           "price": "$30.000",
           "waPrice": "$30.000",
+          "priceValue": 30000,
           "personalizable": true,
           "image": "assets/products/74.webp"
         },
@@ -518,6 +632,7 @@ const YISHU_DATA = {
           "desc": "Letra con tu nombre y decoración temática alrededor: globos aerostáticos, nubes, hojitas y un animalito. Personalizable con la letra, el nombre y los colores que quieras.",
           "price": "$45.000",
           "waPrice": "$45.000",
+          "priceValue": 45000,
           "personalizable": true,
           "image": "assets/products/75.webp",
           "gallery": [
@@ -532,6 +647,7 @@ const YISHU_DATA = {
           "desc": "Letra con el nombre, la fecha, la hora y el peso de nacimiento, con osito en columpio, globo, nubes y estrellas.",
           "price": "$75.000",
           "waPrice": "$75.000",
+          "priceValue": 75000,
           "image": "assets/products/104.webp",
           "personalizable": true
         },
@@ -541,6 +657,7 @@ const YISHU_DATA = {
           "desc": "Perrito salchicha estilo low-poly (facetado), sostiene la botella sobre el lomo.",
           "price": "$150.000",
           "waPrice": "$150.000",
+          "priceValue": 150000,
           "image": "assets/products/90.webp",
           "gallery": [
             "assets/products/90.webp",
@@ -554,6 +671,7 @@ const YISHU_DATA = {
           "desc": "Repisa flotante sostenida por la figura de Anubis. Mide 24 cm de ancho × 20 cm de alto × 10 cm de profundidad.",
           "price": "$200.000",
           "waPrice": "$200.000",
+          "priceValue": 200000,
           "image": "assets/products/96.webp"
         },
         {
@@ -562,7 +680,21 @@ const YISHU_DATA = {
           "desc": "Set de 2 jirafas: la grande de 7 cm de ancho × 15 cm de alto y la pequeña de 4 cm de ancho × 7,5 cm de alto.",
           "price": "$60.000 el set",
           "waPrice": "$60.000 (set de 2)",
+          "priceValue": 60000,
           "image": "assets/products/95.webp"
+        },
+        {
+          "id": 147,
+          "name": "Maceta Monstera con 6 Portavasos",
+          "desc": "Maceta decorativa con una planta de Monstera y 6 portavasos en forma de hoja.",
+          "price": "$55.000",
+          "waPrice": "$55.000",
+          "priceValue": 55000,
+          "image": "assets/products/147.webp",
+          "gallery": [
+            "assets/products/147.webp",
+            "assets/products/147-gallery/foto2.webp"
+          ]
         }
       ]
     },
@@ -576,6 +708,7 @@ const YISHU_DATA = {
           "desc": "Placa en forma de huesito para colgar del collar.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "personalizable": true,
           "image": "assets/products/77.webp"
         },
@@ -585,6 +718,7 @@ const YISHU_DATA = {
           "desc": "Forma de huella, para porcionar la comida.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "personalizable": true,
           "image": "assets/products/78.webp"
         },
@@ -594,6 +728,7 @@ const YISHU_DATA = {
           "desc": "Gancho de pared en forma de huella para colgar correas. Colores a elección.",
           "price": "$22.000 c/u",
           "waPrice": "$22.000",
+          "priceValue": 22000,
           "image": "assets/products/79.webp"
         },
         {
@@ -602,6 +737,7 @@ const YISHU_DATA = {
           "desc": "Forma de espina de pescado, para porcionar la comida.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "personalizable": true,
           "image": "assets/products/80.webp"
         },
@@ -611,6 +747,7 @@ const YISHU_DATA = {
           "desc": "Panel de pared con gancho de correa, gancho de llaves y bandeja para snacks.",
           "price": "$70.000",
           "waPrice": "$70.000",
+          "priceValue": 70000,
           "personalizable": true,
           "image": "assets/products/81.webp"
         },
@@ -620,6 +757,7 @@ const YISHU_DATA = {
           "desc": "Sombrero mini ajustable.",
           "price": "$45.000",
           "waPrice": "$45.000",
+          "priceValue": 45000,
           "image": "assets/products/83.webp"
         },
         {
@@ -628,6 +766,7 @@ const YISHU_DATA = {
           "desc": "Casquito de alien para gatos. Colores a elección.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/97.webp"
         },
         {
@@ -636,6 +775,7 @@ const YISHU_DATA = {
           "desc": "Cama en forma de galleta gigante, con tapete incluido. Mide 35 × 47 cm. Envío gratis.",
           "price": "$820.000",
           "waPrice": "$820.000",
+          "priceValue": 820000,
           "image": "assets/products/137.webp",
           "gallery": [
             "assets/products/137.webp",
@@ -655,6 +795,7 @@ const YISHU_DATA = {
           "desc": "Soporte con perchas para aretes, collares y reloj, y bandeja para anillos.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/41-gallery/negro.webp"
         },
         {
@@ -663,6 +804,7 @@ const YISHU_DATA = {
           "desc": "Soporte para celular, portalápices, bandeja y matera con diseño de huequitos.",
           "price": "$100.000",
           "waPrice": "$100.000",
+          "priceValue": 100000,
           "image": "assets/products/114.webp"
         },
         {
@@ -671,6 +813,7 @@ const YISHU_DATA = {
           "desc": "Mide 25 × 14 × 15 cm, o se puede reducir según las medidas que necesites.",
           "price": "$30.000 c/u",
           "waPrice": "$30.000",
+          "priceValue": 30000,
           "image": "assets/products/46.webp",
           "gallery": [
             "assets/products/46.webp",
@@ -683,6 +826,7 @@ const YISHU_DATA = {
           "desc": "Tipo maletín, con el texto personalizado que quieras. Mira la foto con las medidas.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "personalizable": true,
           "image": "assets/products/51.webp",
           "gallery": [
@@ -696,7 +840,22 @@ const YISHU_DATA = {
           "desc": "Se atornilla a la pared y se ajusta solo, muy suave. Disponible en 2 diseños. Mide 7 × 7 × 15 cm.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/50.webp"
+        },
+        {
+          "id": 149,
+          "name": "Kame House Portallaves con 2 Llaveros",
+          "desc": "Portallaves de pared con la Kame House de Dragon Ball y dos llaveros: uno de Goku y otro de Milk.",
+          "price": "$65.000",
+          "waPrice": "$65.000",
+          "priceValue": 65000,
+          "image": "assets/products/149.webp",
+          "gallery": [
+            "assets/products/149.webp",
+            "assets/products/149-gallery/foto2.webp",
+            "assets/products/149-gallery/foto3.webp"
+          ]
         }
       ]
     },
@@ -710,6 +869,7 @@ const YISHU_DATA = {
           "desc": "Plantilla estándar, elige el ícono: Facebook, LinkedIn, Google Reviews, TikTok, Tripadvisor, WhatsApp, YouTube o WiFi.",
           "price": "$45.000",
           "waPrice": "$45.000",
+          "priceValue": 45000,
           "image": "assets/products/38-gallery/wifi.webp",
           "gallery": [
             "assets/products/38-gallery/wifi.webp",
@@ -744,6 +904,7 @@ const YISHU_DATA = {
           "desc": "Stand octagonal con 3 códigos QR de pago y texto personalizado.",
           "price": "$45.000",
           "waPrice": "$45.000",
+          "priceValue": 45000,
           "image": "assets/products/91.webp"
         },
         {
@@ -773,6 +934,7 @@ const YISHU_DATA = {
           "desc": "Soporte para control de PS5 con máscara de demonio oni.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/27-gallery/nuevo.webp",
           "gallery": [
             "assets/products/27-gallery/nuevo.webp",
@@ -785,6 +947,7 @@ const YISHU_DATA = {
           "desc": "Soporte para control de PS5 con tentáculos.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/108.webp"
         },
         {
@@ -793,6 +956,7 @@ const YISHU_DATA = {
           "desc": "Soporte para control de Xbox con diseño de pulpo.",
           "price": "$70.000",
           "waPrice": "$70.000",
+          "priceValue": 70000,
           "image": "assets/products/105.webp"
         },
         {
@@ -801,6 +965,7 @@ const YISHU_DATA = {
           "desc": "Soporte para control de Xbox con diseño retrowave estilo Miami.",
           "price": "$45.000",
           "waPrice": "$45.000",
+          "priceValue": 45000,
           "image": "assets/products/106.webp"
         },
         {
@@ -809,6 +974,7 @@ const YISHU_DATA = {
           "desc": "Soporte para control de Xbox con base de slime goteando.",
           "price": "$30.000",
           "waPrice": "$30.000",
+          "priceValue": 30000,
           "image": "assets/products/107.webp"
         },
         {
@@ -817,6 +983,7 @@ const YISHU_DATA = {
           "desc": "Sostiene 2 controles y unos audífonos.",
           "price": "$70.000",
           "waPrice": "$70.000",
+          "priceValue": 70000,
           "image": "assets/products/28.webp"
         },
         {
@@ -825,11 +992,21 @@ const YISHU_DATA = {
           "desc": "Set de 5 piezas.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/29-gallery/nuevo.webp",
           "gallery": [
             "assets/products/29-gallery/nuevo.webp",
             "assets/products/29.webp"
           ]
+        },
+        {
+          "id": 148,
+          "name": "Planta Piraña Porta Juegos de Switch",
+          "desc": "La planta piraña de Mario Bros en su tubo verde, con ranuras en la base para guardar tus juegos de Nintendo Switch.",
+          "price": "$55.000",
+          "waPrice": "$55.000",
+          "priceValue": 55000,
+          "image": "assets/products/148.webp"
         }
       ]
     },
@@ -843,6 +1020,7 @@ const YISHU_DATA = {
           "desc": "Perrito de globo en contorno negro.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/60.webp"
         },
         {
@@ -851,6 +1029,7 @@ const YISHU_DATA = {
           "desc": "Inspirados en los aretes de Tanjiro, de Demon Slayer.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/61.webp"
         },
         {
@@ -859,6 +1038,7 @@ const YISHU_DATA = {
           "desc": "Máscara de demonio oni, en negro.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/62.webp"
         },
         {
@@ -867,6 +1047,7 @@ const YISHU_DATA = {
           "desc": "Corona de flores con lazo, en blanco y rosado.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/64.webp"
         },
         {
@@ -875,6 +1056,7 @@ const YISHU_DATA = {
           "desc": "Hombrecito de jengibre, diseño navideño.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/65.webp"
         },
         {
@@ -883,6 +1065,7 @@ const YISHU_DATA = {
           "desc": "Fantasma y murciélago con lazo, diseño de Halloween.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/67.webp"
         },
         {
@@ -891,6 +1074,7 @@ const YISHU_DATA = {
           "desc": "Huevito con patitas, diseño de pollito.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/68.webp"
         },
         {
@@ -899,6 +1083,7 @@ const YISHU_DATA = {
           "desc": "Pez koi en contorno negro.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/69.webp"
         },
         {
@@ -907,6 +1092,7 @@ const YISHU_DATA = {
           "desc": "Corazón rojo, estilo crochet.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/70.webp"
         },
         {
@@ -915,6 +1101,7 @@ const YISHU_DATA = {
           "desc": "Zorrito en tres partes colgantes: cabeza, cuerpo y cola.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/71.webp"
         },
         {
@@ -923,6 +1110,7 @@ const YISHU_DATA = {
           "desc": "Avión de papel en blanco.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/84.webp"
         },
         {
@@ -931,6 +1119,7 @@ const YISHU_DATA = {
           "desc": "Cámara instantánea en rosado, con charm de foto colgando.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/85.webp"
         },
         {
@@ -939,6 +1128,7 @@ const YISHU_DATA = {
           "desc": "Cassette en rosado.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/86.webp"
         },
         {
@@ -947,6 +1137,7 @@ const YISHU_DATA = {
           "desc": "Gato saltando en silueta negra.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/88.webp"
         },
         {
@@ -955,6 +1146,7 @@ const YISHU_DATA = {
           "desc": "Perrito de un solo trazo, en negro.",
           "price": "$8.000",
           "waPrice": "$8.000",
+          "priceValue": 8000,
           "image": "assets/products/89.webp"
         }
       ],
@@ -970,6 +1162,7 @@ const YISHU_DATA = {
           "desc": "Patrón shoji.",
           "price": "$38.000",
           "waPrice": "$38.000",
+          "priceValue": 38000,
           "image": "assets/products/30.webp"
         },
         {
@@ -978,6 +1171,7 @@ const YISHU_DATA = {
           "desc": "",
           "price": "$35.000",
           "waPrice": "$35.000",
+          "priceValue": 35000,
           "image": "assets/products/31.webp"
         },
         {
@@ -986,6 +1180,7 @@ const YISHU_DATA = {
           "desc": "Con luz cálida integrada.",
           "price": "$40.000",
           "waPrice": "$40.000",
+          "priceValue": 40000,
           "image": "assets/products/32.webp"
         }
       ],
@@ -1001,6 +1196,7 @@ const YISHU_DATA = {
           "desc": "Perfecto como regalo. Mide 5 × 5 cm.",
           "price": "$17.000",
           "waPrice": "$17.000",
+          "priceValue": 17000,
           "personalizable": true,
           "image": "assets/products/47.webp"
         },
@@ -1010,6 +1206,7 @@ const YISHU_DATA = {
           "desc": "Llavero con tu nombre y un charm. Se le pueden añadir más charms por +$1.000 cada uno.",
           "price": "$12.000",
           "waPrice": "$12.000",
+          "priceValue": 12000,
           "personalizable": true,
           "image": "assets/products/48.webp"
         },
@@ -1033,6 +1230,7 @@ const YISHU_DATA = {
           "desc": "Cámara instantánea con tu foto y tu nombre.",
           "price": "$20.000",
           "waPrice": "$20.000",
+          "priceValue": 20000,
           "image": "assets/products/136.webp",
           "personalizable": true,
           "gallery": [
@@ -1046,6 +1244,7 @@ const YISHU_DATA = {
           "desc": "Llavero en forma de inicial con el nombre encima.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/116.webp",
           "personalizable": true
         },
@@ -1055,6 +1254,16 @@ const YISHU_DATA = {
           "desc": "Charms para añadir a tu llavero: los pequeños (camiseta, café, sobre, corona, huella) +$1.000 c/u y los corazones +$1.500 c/u.",
           "price": "+$1.000 / +$1.500 c/u",
           "waPrice": "+$1.000 (pequeños) / +$1.500 (corazones) cada uno",
+          "priceOptions": [
+            {
+              "label": "Charm pequeño",
+              "value": 1000
+            },
+            {
+              "label": "Charm corazón",
+              "value": 1500
+            }
+          ],
           "image": "assets/products/115.webp",
           "gallery": [
             "assets/products/115.webp",
@@ -1074,6 +1283,7 @@ const YISHU_DATA = {
           "desc": "Jaw mask estilo esqueleto, blanca.",
           "price": "$50.000",
           "waPrice": "$50.000",
+          "priceValue": 50000,
           "image": "assets/products/34-gallery/nuevo.webp"
         },
         {
@@ -1082,6 +1292,7 @@ const YISHU_DATA = {
           "desc": "Rostro facetado, blanca.",
           "price": "$55.000",
           "waPrice": "$55.000",
+          "priceValue": 55000,
           "image": "assets/products/35.webp"
         },
         {
@@ -1090,6 +1301,7 @@ const YISHU_DATA = {
           "desc": "Estilo cuero con costuras y orejas.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/36-gallery/principal.webp",
           "gallery": [
             "assets/products/36-gallery/principal.webp",
@@ -1102,6 +1314,7 @@ const YISHU_DATA = {
           "desc": "Máscara con cordón para sujetarla.",
           "price": "$100.000",
           "waPrice": "$100.000",
+          "priceValue": 100000,
           "image": "assets/products/109.webp",
           "gallery": [
             "assets/products/109.webp",
@@ -1115,6 +1328,7 @@ const YISHU_DATA = {
           "desc": "Las dos máscaras juntas.",
           "price": "$150.000",
           "waPrice": "$150.000",
+          "priceValue": 150000,
           "image": "assets/products/110.webp"
         },
         {
@@ -1123,6 +1337,7 @@ const YISHU_DATA = {
           "desc": "Jaw mask estilo demonio oni.",
           "price": "$60.000",
           "waPrice": "$60.000",
+          "priceValue": 60000,
           "image": "assets/products/37.webp"
         },
         {
@@ -1131,6 +1346,7 @@ const YISHU_DATA = {
           "desc": "Máscara de demonio con cuernos, en varios colores.",
           "price": "$85.000",
           "waPrice": "$85.000",
+          "priceValue": 85000,
           "image": "assets/products/111.webp",
           "gallery": [
             "assets/products/111.webp",
@@ -1144,6 +1360,7 @@ const YISHU_DATA = {
           "desc": "Máscara con cuernos.",
           "price": "$70.000",
           "waPrice": "$70.000",
+          "priceValue": 70000,
           "image": "assets/products/112.webp",
           "gallery": [
             "assets/products/112.webp",
@@ -1164,6 +1381,7 @@ const YISHU_DATA = {
           "desc": "Decoración de esquina para puerta o interruptor, con calabazas y caldero.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/1.webp"
         },
         {
@@ -1172,6 +1390,7 @@ const YISHU_DATA = {
           "desc": "Decoración de esquina para puerta o interruptor.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/2.webp"
         },
         {
@@ -1180,6 +1399,7 @@ const YISHU_DATA = {
           "desc": "Pieza decorativa para colgar.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/3.webp"
         },
         {
@@ -1188,6 +1408,7 @@ const YISHU_DATA = {
           "desc": "Decoración para puerta.",
           "price": "$15.000",
           "waPrice": "$15.000",
+          "priceValue": 15000,
           "image": "assets/products/4.webp"
         },
         {
@@ -1196,6 +1417,7 @@ const YISHU_DATA = {
           "desc": "Recipiente para dulces con forma de fantasma.",
           "price": "$25.000",
           "waPrice": "$25.000",
+          "priceValue": 25000,
           "image": "assets/products/5.webp"
         },
         {
@@ -1204,6 +1426,7 @@ const YISHU_DATA = {
           "desc": "Se vende por unidad.",
           "price": "$20.000 c/u",
           "waPrice": "$20.000",
+          "priceValue": 20000,
           "image": "assets/products/6.webp"
         },
         {
@@ -1212,6 +1435,7 @@ const YISHU_DATA = {
           "desc": "Set de portavasos con base incluida.",
           "price": "$25.000",
           "waPrice": "$25.000",
+          "priceValue": 25000,
           "image": "assets/products/7.webp"
         },
         {
@@ -1220,6 +1444,7 @@ const YISHU_DATA = {
           "desc": "Set de portavasos con base incluida.",
           "price": "$25.000",
           "waPrice": "$25.000",
+          "priceValue": 25000,
           "image": "assets/products/8.webp"
         }
       ]
@@ -1234,6 +1459,7 @@ const YISHU_DATA = {
           "desc": "Figura 3D sobre base negra con salpicado.",
           "price": "$35.000",
           "waPrice": "$35.000",
+          "priceValue": 35000,
           "image": "assets/products/52.webp"
         },
         {
@@ -1242,6 +1468,7 @@ const YISHU_DATA = {
           "desc": "Funcional para limpiar pipas.",
           "price": "$29.000",
           "waPrice": "$29.000",
+          "priceValue": 29000,
           "image": "assets/products/53.webp"
         },
         {
@@ -1250,6 +1477,7 @@ const YISHU_DATA = {
           "desc": "Guarda hasta 4 porros armados, con un espacio central para el encendedor.",
           "price": "$28.000",
           "waPrice": "$28.000",
+          "priceValue": 28000,
           "image": "assets/products/54.webp"
         },
         {
@@ -1258,6 +1486,7 @@ const YISHU_DATA = {
           "desc": "Con hoja de cannabis.",
           "price": "$25.000",
           "waPrice": "$25.000",
+          "priceValue": 25000,
           "image": "assets/products/55.webp"
         },
         {
@@ -1266,6 +1495,7 @@ const YISHU_DATA = {
           "desc": "Contenedor estilo barril.",
           "price": "$10.000",
           "waPrice": "$10.000",
+          "priceValue": 10000,
           "image": "assets/products/56.webp"
         },
         {
@@ -1274,6 +1504,7 @@ const YISHU_DATA = {
           "desc": "Diseño de hoja de cannabis.",
           "price": "$25.000",
           "waPrice": "$25.000",
+          "priceValue": 25000,
           "image": "assets/products/57.webp"
         },
         {
@@ -1290,6 +1521,7 @@ const YISHU_DATA = {
           "desc": "Kit para armar cigarrillos: papel, filtros y bandeja.",
           "price": "$20.000",
           "waPrice": "$20.000",
+          "priceValue": 20000,
           "image": "assets/products/59.webp"
         }
       ]
