@@ -695,6 +695,20 @@
             "assets/products/147.webp",
             "assets/products/147-gallery/foto2.webp"
           ]
+        },
+        {
+          "id": 149,
+          "name": "Kame House Portallaves con 2 Llaveros",
+          "desc": "Portallaves de pared con la Kame House de Dragon Ball y dos llaveros: uno de Goku y otro de Milk.",
+          "price": "$65.000",
+          "waPrice": "$65.000",
+          "priceValue": 65000,
+          "image": "assets/products/149.webp",
+          "gallery": [
+            "assets/products/149.webp",
+            "assets/products/149-gallery/foto2.webp",
+            "assets/products/149-gallery/foto3.webp"
+          ]
         }
       ]
     },
@@ -842,20 +856,6 @@
           "waPrice": "$40.000",
           "priceValue": 40000,
           "image": "assets/products/50.webp"
-        },
-        {
-          "id": 149,
-          "name": "Kame House Portallaves con 2 Llaveros",
-          "desc": "Portallaves de pared con la Kame House de Dragon Ball y dos llaveros: uno de Goku y otro de Milk.",
-          "price": "$65.000",
-          "waPrice": "$65.000",
-          "priceValue": 65000,
-          "image": "assets/products/149.webp",
-          "gallery": [
-            "assets/products/149.webp",
-            "assets/products/149-gallery/foto2.webp",
-            "assets/products/149-gallery/foto3.webp"
-          ]
         }
       ]
     },
