@@ -709,6 +709,19 @@
             "assets/products/149-gallery/foto2.webp",
             "assets/products/149-gallery/foto3.webp"
           ]
+        },
+        {
+          "id": 150,
+          "name": "Porta Vinos de Mano Voronoi",
+          "desc": "Porta vinos con forma de mano y diseño Voronoi calado: la botella queda inclinada, apoyada sobre la mano.",
+          "price": "$40.000",
+          "waPrice": "$40.000",
+          "priceValue": 40000,
+          "image": "assets/products/150.webp",
+          "gallery": [
+            "assets/products/150.webp",
+            "assets/products/150-gallery/foto2.webp"
+          ]
         }
       ]
     },

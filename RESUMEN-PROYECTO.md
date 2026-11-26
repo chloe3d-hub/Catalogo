@@ -84,5 +84,5 @@ El tracker de pedidos (`chloe3d-hub/purchasetracker`) lee `data/products.json` p
 
 Al agregar un producto nuevo, ponerle `priceValue` o `priceOptions`. `data/products.js` y `data/products.json` tienen que quedar idénticos: se edita products.js y se ejecuta `node tools/sincronizar-json.js`.
 
-Los productos 147 (Maceta Monstera con 6 Portavasos), 148 (Planta Piraña Porta Juegos de Switch) y 149 (Kame House Portallaves con 2 Llaveros) se agregaron con fotos propias de Lorena. Las imágenes de referencia de terceros se dejaron fuera por traer marcas de agua.
+Los productos 147 (Maceta Monstera con 6 Portavasos), 148 (Planta Piraña Porta Juegos de Switch) y 149 (Kame House Portallaves con 2 Llaveros) se agregaron con fotos propias de Lorena. Las imágenes de referencia de terceros se dejaron fuera por traer marcas de agua. La Kame House está en Decoración para la Casa. El 150 (Porta Vinos de Mano Voronoi, $40.000, Decoración para la Casa) se agregó con las dos fotos que envió Lorena, recortadas a cuadrado.
 
