@@ -869,6 +869,16 @@
           "waPrice": "$40.000",
           "priceValue": 40000,
           "image": "assets/products/50.webp"
+        },
+        {
+          "id": 151,
+          "name": "Portalápices Lápiz con Nombre",
+          "desc": "Portalápices con forma de lápiz y tu nombre en el frente.",
+          "price": "$25.000",
+          "waPrice": "$25.000",
+          "priceValue": 25000,
+          "personalizable": true,
+          "image": "assets/products/151.webp"
         }
       ]
     },
